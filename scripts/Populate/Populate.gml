@@ -10,17 +10,17 @@ with(oController){
 	ds_list_destroy(enemyQueue)
 	enemyQueue = ds_list_create()
 }
-/*
+
 for(i = 0; i < enemyNum; i++){
 	do {
 		eX = irandom_range(1, gridWidth-2)
 		eY = irandom_range(1, gridWidth-2) 
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
-	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemy1, oEnemy2, oEnemy3))
+	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCreditCard))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
-*/
+
 
 with(pItem) instance_destroy()
 with(oInnerWall) instance_destroy()

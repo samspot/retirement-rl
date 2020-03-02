@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0f6d4ec7-b0c1-4544-a3ae-f8a418b0f2a6",
+            "Value": {
+                "id": "83e90823-488c-4c40-ab5d-9d7832d7346e",
+                "resourcePath": "objects\\pEnemySelfDestruct\\pEnemySelfDestruct.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "100d088e-3d45-4df9-9476-7dc569c51688",
             "Value": {
                 "id": "d913ea8c-5743-4e12-a1af-bc1c477c19bd",
@@ -236,6 +244,14 @@
                 "id": "cde2aa43-148b-4d8d-ad1c-8eca941c8e48",
                 "resourcePath": "views\\4af06339-741a-463c-b9d1-4da03fe5f942.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e5c1fbd-2f7d-4e23-991a-7519555c71ed",
+            "Value": {
+                "id": "32079551-7818-4315-803f-b2f8fb9c2232",
+                "resourcePath": "sprites\\sCreditCard\\sCreditCard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -484,6 +500,14 @@
                 "id": "6d4e7497-0dd0-4512-b009-f0f11000860a",
                 "resourcePath": "scripts\\GetNetWorth\\GetNetWorth.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9b0ba777-28ed-4030-b1b2-184c83d387ce",
+            "Value": {
+                "id": "82ae00da-f0e7-4c08-a41c-0a9f5dbefb41",
+                "resourcePath": "objects\\oEnemyCreditCard\\oEnemyCreditCard.yy",
+                "resourceType": "GMObject"
             }
         },
         {

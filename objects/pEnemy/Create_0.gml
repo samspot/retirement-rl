@@ -16,3 +16,6 @@ gY = PixelToGrid(y)
 ds_grid_set(c.grid, gX, gY, entity.enemy)
 
 damage = 1
+
+event_inherited()
+toolTipText = "This is the ENEMY parent item \nChildren should override it."

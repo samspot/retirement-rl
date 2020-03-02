@@ -51,7 +51,7 @@ enemyQueue = ds_list_create()
 enemyGrid = mp_grid_create(0, 0, gridWidth, gridHeight, dim, dim)
 
 level = 0
-enemyInc = 2
+enemyInc = 1
 
 
 Populate()

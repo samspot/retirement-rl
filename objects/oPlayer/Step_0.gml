@@ -21,7 +21,8 @@ else if (up)   { dirY--; dir = dirs.up }
 
 if(canMove && dir >= 0){
 	if(CheckGridCollision(dirX, dirY, entity.enemy)){
-		Attack(dir)
+		//Attack(dir)
+		Move(dir)
 	} else if (!CheckGridCollision(dirX, dirY, entity.wall)){
 		Move(dir)	
 	}
