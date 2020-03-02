@@ -24,6 +24,8 @@ var market = "Stable"
 if(oMarket.market_state == 1) market = "Bull"
 if(oMarket.market_state == 0) market = "Bear"
 
+//DrawTextShadowed(150, 300, "Dead? " + string(oPlayer.dead))
+
 DrawTextShadowed(150, 320, "ira$: " + string(oMarket.balance_ira))
 DrawTextShadowed(150, 340, "emp$: " + string(oMarket.balance_emp))
 DrawTextShadowed(150, 360, "sma$: " + string(oMarket.balance_sma))

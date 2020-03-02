@@ -1,6 +1,7 @@
 /// @description setup grid and basic level gen
 
 randomize()
+global.netWorth = 0
 
 dim = 40
 

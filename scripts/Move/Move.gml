@@ -1,5 +1,4 @@
 /// move(direction)
-
 var dir = argument0
 
 if (dir == dirs.right) hspeed = mSpeed
@@ -19,4 +18,12 @@ age++
 cash -= expenses
 with(oMarket){
 	event_user(0)
+}
+
+if(CheckEndGame() && !oPlayer.dead){
+	oPlayer.dead = true	
+	global.netWorth = GetNetWorth()
+	global.age = oPlayer.age
+
+	room_goto(roomGameEnd)
 }

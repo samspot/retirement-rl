@@ -16,9 +16,13 @@ if(hspeed != 0 || vspeed != 0){
 		moves = maxMoves
 		if(!QueueEnemies()){
 			//with(c) Populate()
-			canMove = true
+			if(!dead){
+				canMove = true
+			}
 		}
 	} else {
-		canMove = true
+		if(!dead){
+			canMove = true
+		}
 	}
 }
