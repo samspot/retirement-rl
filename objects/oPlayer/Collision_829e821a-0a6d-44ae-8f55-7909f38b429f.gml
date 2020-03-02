@@ -6,4 +6,14 @@ damage += other.damage
 maxMoves += other.maxMoves
 cash += other.cash
 
+var pira = other.ira
+var pemp = other.emp
+var psma = other.sma
+
+with(oMarket){
+	ira += pira
+	emp += pemp
+	sma += psma
+}
+
 with(other) instance_destroy()

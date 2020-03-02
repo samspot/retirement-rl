@@ -16,9 +16,16 @@ if(debug_mode){
 }
 
 
-DrawTextShadowed(0, 360, "age: " + string(oPlayer.age))
+DrawTextShadowed(0, 360, "cash: " + string(oPlayer.cash))
 DrawTextShadowed(0, 380, "expenses: " + string(oPlayer.expenses))
-DrawTextShadowed(0, 400, "cash: " + string(oPlayer.cash))
+DrawTextShadowed(0, 400, "age: " + string(oPlayer.age))
 
 var market = oMarket.market_state == 1 ? "Bull" : "Bear"
-DrawTextShadowed(150, 360, "market: " + market)
+
+DrawTextShadowed(150, 320, "ira$: " + string(oMarket.balance_ira))
+DrawTextShadowed(150, 340, "emp$: " + string(oMarket.balance_emp))
+DrawTextShadowed(150, 360, "sma$: " + string(oMarket.balance_sma))
+DrawTextShadowed(150, 380, "market: " + market)
+DrawTextShadowed(120, 400, "ira: " 	+ string(oMarket.ira)
+	+ ", emp: " + string(oMarket.emp)
+	+ ", sma: " + string(oMarket.sma))
