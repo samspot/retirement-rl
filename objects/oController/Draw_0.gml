@@ -16,5 +16,6 @@ if(debug_mode){
 }
 
 
-DrawTextShadowed(0, 380, "age: " + string(oPlayer.age))
+DrawTextShadowed(0, 360, "age: " + string(oPlayer.age))
+DrawTextShadowed(0, 380, "expenses: " + string(oPlayer.expenses))
 DrawTextShadowed(0, 400, "cash: " + string(oPlayer.cash))
