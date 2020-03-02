@@ -1,5 +1,7 @@
 /// @description add item stats to player
 
+event_inherited()
+
 hp = 0
 maxMoves = 0
 damage = 0

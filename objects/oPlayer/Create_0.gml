@@ -1,5 +1,9 @@
 /// @description init
 
+event_inherited()
+
+toolTipText = "It's you!  Live as long as you can before you run out of money."
+
 c = oController
 canMove = true
 mSpeed = 4

@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "oExit",
     "eventList": [
-        
+        {
+            "id": "8b8f904b-8f49-472d-957b-d697f1baf588",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "96430788-c703-4ae4-a0b0-991d9dbad357"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "6b57a71f-b58b-4ce1-aa2f-c37864c0a8ba",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -271,6 +271,22 @@
             }
         },
         {
+            "Key": "6b57a71f-b58b-4ce1-aa2f-c37864c0a8ba",
+            "Value": {
+                "id": "920e28c0-7fba-4415-89c6-73be9449a937",
+                "resourcePath": "objects\\pToolTip\\pToolTip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "75275f5d-2431-4347-ad17-76b328c330bd",
+            "Value": {
+                "id": "75a4d7e1-bfba-4422-aca8-3dca3dbe24e7",
+                "resourcePath": "scripts\\DrawToolTip\\DrawToolTip.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "3e7ea971-98bf-4528-b911-b148f93d6280",
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "b571d318-f014-4588-be83-15f59f5c414d",
+            "Value": {
+                "id": "cee3dfff-3492-454a-9d0e-908f820eae96",
+                "resourcePath": "fonts\\fntArial\\fntArial.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b7430e94-f083-4c6a-9e05-3a9599a237fa",
             "Value": {
                 "id": "6a408719-a0f0-4552-8074-16c2f93f22c9",
@@ -691,7 +715,8 @@
         "157471fa-7e43-4392-9a4b-da33f9e34b75",
         "9823e3f6-b53d-4a73-b9cf-bd9d3543506c",
         "85767d72-cbbe-4dba-83b6-5a0b33e7dc52",
-        "eba0af63-8879-4c83-9768-400190dbbe1e"
+        "eba0af63-8879-4c83-9768-400190dbbe1e",
+        "75275f5d-2431-4347-ad17-76b328c330bd"
     ],
     "tutorial": ""
 }
