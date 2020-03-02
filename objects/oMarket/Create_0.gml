@@ -4,7 +4,6 @@ enum marketState {
 	BEAR, BULL, STABLE
 }
 
-SimMarkets()
 
 // percent income in each ret vehicle
 ira = 0
@@ -14,3 +13,6 @@ sma = 0
 balance_ira = 0
 balance_emp = 0
 balance_sma = 0
+
+
+SimMarkets()

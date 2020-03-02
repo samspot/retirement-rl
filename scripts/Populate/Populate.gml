@@ -53,6 +53,10 @@ for(i = 0; i < 10; i++){
 
 for(i=0; i < 4; i++){
 	if(oPlayer.age < 65){
-		CreateEntity(choose(oItemIra, oItemEmp, oItemSma), entity.item)
+		if(GetNetWorth() >= 100000){			
+			CreateEntity(choose(oItemSma, oItemEmp, oItemSma), entity.item)
+		} else {
+			CreateEntity(choose(oItemIra, oItemEmp, oItemEmp), entity.item)
+		}
 	}
 }

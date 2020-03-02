@@ -1,3 +1,9 @@
 /// GetNetWorth
+var netWorth = oPlayer.cash
 
-return oPlayer.cash + oMarket.balance_ira + oMarket.balance_emp + oMarket.balance_sma
+//if(instance_exists(oMarket)){
+	with(oMarket){
+		netWorth += balance_ira + balance_emp + balance_sma
+	}
+//}
+return netWorth
