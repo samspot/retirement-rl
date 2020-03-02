@@ -3,7 +3,7 @@
 randomize()
 global.netWorth = 0
 
-dim = 40
+dim = 52
 
 gridWidth = 8
 gridHeight = 9

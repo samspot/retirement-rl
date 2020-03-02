@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "e05f4b20-7221-47f2-8235-eb4280fb9e3e",
+            "Value": {
+                "id": "591f36ce-fc81-4305-82fe-c259c5c8441f",
+                "resourcePath": "sprites\\sBackground_52x52\\sBackground_52x52.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e710b647-6d26-4d64-8c1c-cf564ec3da17",
             "Value": {
                 "id": "ba52a843-a326-4aab-a9f2-e364e853694b",

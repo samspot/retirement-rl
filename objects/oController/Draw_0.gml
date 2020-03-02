@@ -15,10 +15,12 @@ if(debug_mode){
 	}
 }
 
+// y starting point for gui
+var ys = 460
 
-DrawTextShadowed(0, 360, "cash: " + string(oPlayer.cash))
-DrawTextShadowed(0, 380, "expenses: " + string(GetExpenses()))
-DrawTextShadowed(0, 400, "age: " + string(oPlayer.age))
+DrawTextShadowed(0, ys, "cash: " + string(oPlayer.cash))
+DrawTextShadowed(0, ys+20, "expenses: " + string(GetExpenses()))
+DrawTextShadowed(0, ys+40, "age: " + string(oPlayer.age))
 
 var market = "Stable"
 if(oMarket.market_state == 1) market = "Bull"
@@ -26,10 +28,10 @@ if(oMarket.market_state == 0) market = "Bear"
 
 //DrawTextShadowed(150, 300, "Dead? " + string(oPlayer.dead))
 
-DrawTextShadowed(150, 320, "ira$: " + string(oMarket.balance_ira))
-DrawTextShadowed(150, 340, "emp$: " + string(oMarket.balance_emp))
-DrawTextShadowed(150, 360, "sma$: " + string(oMarket.balance_sma))
-DrawTextShadowed(150, 380, "market: " + market)
-DrawTextShadowed(120, 400, "ira: " 	+ string(oMarket.ira)
+DrawTextShadowed(150, ys, "ira$: " + string(oMarket.balance_ira))
+DrawTextShadowed(150, ys+20, "emp$: " + string(oMarket.balance_emp))
+DrawTextShadowed(150, ys+40, "sma$: " + string(oMarket.balance_sma))
+DrawTextShadowed(150, ys+60, "market: " + market)
+DrawTextShadowed(120, ys+80, "ira: " 	+ string(oMarket.ira)
 	+ ", emp: " + string(oMarket.emp)
 	+ ", sma: " + string(oMarket.sma))
