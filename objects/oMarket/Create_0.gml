@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 enum marketState {
-	BEAR, BULL	
+	BEAR, BULL, STABLE
 }
 
-market_state = choose(marketState.BEAR, marketState.BULL)
+SimMarkets()
 
 // percent income in each ret vehicle
 ira = 0

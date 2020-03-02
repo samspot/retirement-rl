@@ -4,7 +4,8 @@
 hp += other.hp
 damage += other.damage
 maxMoves += other.maxMoves
-cash += other.cash
+//cash += other.cash
+AddCash(other.cash)
 
 var pira = other.ira
 var pemp = other.emp

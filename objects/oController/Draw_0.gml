@@ -20,7 +20,9 @@ DrawTextShadowed(0, 360, "cash: " + string(oPlayer.cash))
 DrawTextShadowed(0, 380, "expenses: " + string(oPlayer.expenses))
 DrawTextShadowed(0, 400, "age: " + string(oPlayer.age))
 
-var market = oMarket.market_state == 1 ? "Bull" : "Bear"
+var market = "Stable"
+if(oMarket.market_state == 1) market = "Bull"
+if(oMarket.market_state == 0) market = "Bear"
 
 DrawTextShadowed(150, 320, "ira$: " + string(oMarket.balance_ira))
 DrawTextShadowed(150, 340, "emp$: " + string(oMarket.balance_emp))

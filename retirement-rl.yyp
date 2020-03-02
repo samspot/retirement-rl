@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "a10d1d88-e501-40de-b544-7429d582c8f3",
+            "Value": {
+                "id": "df9a54ce-12bb-4da2-834e-404fed5b0857",
+                "resourcePath": "scripts\\AddCash\\AddCash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a122dfb7-b338-47f6-9299-8847cff369ba",
             "Value": {
                 "id": "41de23e3-f533-46ce-857f-7f830ccf012b",
@@ -451,6 +459,14 @@
             "Value": {
                 "id": "8d5a2087-48de-4fc9-a539-6127c4b9f597",
                 "resourcePath": "scripts\\IsLevelComplete\\IsLevelComplete.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bc55c6b3-41af-4125-8d57-f0c94cee8465",
+            "Value": {
+                "id": "b5fb2e69-0ddf-4838-9101-9ec87590c406",
+                "resourcePath": "scripts\\SimMarkets\\SimMarkets.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -557,7 +573,9 @@
         "b93eade4-d0c6-49d8-b9a1-091180aa2745",
         "bbacc010-8c87-47ac-a8b9-dfc66bd0e395",
         "1c2aca23-6cf8-4fb3-a08e-9f82ebe4efa1",
-        "f8423f10-8136-4336-919f-a01bdb6bdd9b"
+        "f8423f10-8136-4336-919f-a01bdb6bdd9b",
+        "a10d1d88-e501-40de-b544-7429d582c8f3",
+        "bc55c6b3-41af-4125-8d57-f0c94cee8465"
     ],
     "tutorial": ""
 }
