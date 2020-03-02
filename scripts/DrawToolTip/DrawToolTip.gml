@@ -48,7 +48,7 @@ if ( ( ( xPos - room_width + text_width) <= ( room_width - 5) ) && ( xPos - text
 
     // Draw the text inside the rect
     //draw_text( xPos, yPos - 2, argument0);
-    draw_text_ext( xPos, yPos - 2, argument0, 12, room_width*.9);    
+    draw_text_ext( xPos, yPos - 2, argument0, 16, room_width*.9);    
 
     // Reset old color
     draw_set_color(old_color);
@@ -67,7 +67,7 @@ else
 
     // Draw the text inside the rect
     //draw_text( xPos, yPos - 2, argument0);    
-    draw_text_ext( xPos, yPos - 2, argument0, 12, room_width*.9);    
+    draw_text_ext( xPos, yPos - 2, argument0, 16, room_width*.9);    
 
     // Reset old color
     draw_set_color(old_color);    

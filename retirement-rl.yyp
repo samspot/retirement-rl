@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "100d088e-3d45-4df9-9476-7dc569c51688",
+            "Value": {
+                "id": "d913ea8c-5743-4e12-a1af-bc1c477c19bd",
+                "resourcePath": "fonts\\fntFloating\\fntFloating.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "11a5becd-fe94-4903-8d9f-3ba6ae8c5a43",
             "Value": {
                 "id": "903acede-725b-492a-af61-8fec9f53f41e",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "84ca923e-38b3-4736-bf4a-d83c968129c9",
+            "Value": {
+                "id": "a6e0dd33-3caf-4282-aa0e-7073ccbbf7e5",
+                "resourcePath": "fonts\\fntSquare\\fntSquare.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "84cd1740-f418-4cef-9fab-644a2edfaef6",
             "Value": {
                 "id": "6da7e2e0-f364-4564-b2a8-73687540cc7d",
@@ -492,6 +508,14 @@
                 "id": "41de23e3-f533-46ce-857f-7f830ccf012b",
                 "resourcePath": "scripts\\Move\\Move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a3f66b48-3bc7-4e46-9f84-f368f3327cbd",
+            "Value": {
+                "id": "18cb41b8-e061-40cf-b348-39909a5da7c1",
+                "resourcePath": "objects\\oFloatingText\\oFloatingText.yy",
+                "resourceType": "GMObject"
             }
         },
         {

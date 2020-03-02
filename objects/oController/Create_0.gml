@@ -3,6 +3,8 @@
 randomize()
 global.netWorth = 0
 
+draw_set_valign(fa_middle);
+
 dim = 52
 
 gridWidth = 8

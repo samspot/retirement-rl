@@ -1,6 +1,8 @@
 /// @description debug stuff
 
-draw_set_font(fDebug)
+//draw_set_font(fDebug)
+
+draw_set_font(fntFloating)
 draw_set_color(c_dkgray)
 
 if(debug_mode){
@@ -15,12 +17,21 @@ if(debug_mode){
 	}
 }
 
+    // Set alignment to right
+    //draw_set_halign(fa_right);
+
+    // Draw rect around the text
+    draw_roundrect_color( 0+2, room_height - 120, room_width-3, room_height-3, c_black, c_black, false);
+	
+	
+    //draw_set_halign(fa_left);
+
 // y starting point for gui
 var ys = 460
 
-DrawTextShadowed(0, ys, "cash: " + string(oPlayer.cash))
-DrawTextShadowed(0, ys+20, "expenses: " + string(GetExpenses()))
-DrawTextShadowed(0, ys+40, "age: " + string(oPlayer.age))
+DrawTextShadowed(4, ys, "cash: " + string(oPlayer.cash))
+DrawTextShadowed(4, ys+20, "expenses: " + string(GetExpenses()))
+DrawTextShadowed(4, ys+40, "age: " + string(oPlayer.age))
 
 var market = "Stable"
 if(oMarket.market_state == 1) market = "Bull"
