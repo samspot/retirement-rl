@@ -32,4 +32,8 @@ if(cash < 0){
 		oMarket.balance_ira = 0
 	}
 }
+
+if(cash < 0){
+	cash *= 1.07
+}
 oPlayer.cash = cash
