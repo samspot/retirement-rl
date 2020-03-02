@@ -2,7 +2,7 @@
 var a = oPlayer.age
 var e = oPlayer.expenses
 
-if(a > 35 && a < 50){
+if(a >= 35 && a < 50){
 	e *= 1.30	
 } 
 
