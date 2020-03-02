@@ -15,7 +15,8 @@ canMove = false
 
 
 age++
-cash -= GetExpenses()
+//cash -= GetExpenses()
+SubtractExpenses()
 with(oMarket){
 	event_user(0)
 }

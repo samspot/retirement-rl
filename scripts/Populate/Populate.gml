@@ -41,7 +41,7 @@ for(i = 0; i < 10; i++){
 	}
 }
 
-for(i=0; i < 10; i++){
+for(i=0; i < 4; i++){
 	if(oPlayer.age < 65){
 		CreateEntity(choose(oItemIra, oItemEmp, oItemSma), entity.item)
 	}

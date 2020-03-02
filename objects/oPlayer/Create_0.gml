@@ -11,5 +11,5 @@ cash = 20000
 age = 18
 //cash = 5000
 //age = 65
-expenses = 5000
+expenses = 3000
 dead = false

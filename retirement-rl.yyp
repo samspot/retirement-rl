@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "eba0af63-8879-4c83-9768-400190dbbe1e",
+            "Value": {
+                "id": "50cf2a5d-2a4a-42ff-a8b3-3fafc867bab4",
+                "resourcePath": "scripts\\SubtractExpenses\\SubtractExpenses.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed72f850-878a-4956-9c91-64a6ca5985e2",
             "Value": {
                 "id": "59041a32-4792-4744-a2be-41840b163a13",
@@ -682,7 +690,8 @@
         "bc55c6b3-41af-4125-8d57-f0c94cee8465",
         "157471fa-7e43-4392-9a4b-da33f9e34b75",
         "9823e3f6-b53d-4a73-b9cf-bd9d3543506c",
-        "85767d72-cbbe-4dba-83b6-5a0b33e7dc52"
+        "85767d72-cbbe-4dba-83b6-5a0b33e7dc52",
+        "eba0af63-8879-4c83-9768-400190dbbe1e"
     ],
     "tutorial": ""
 }

@@ -1,4 +1,4 @@
 /// @description get cash
 
 event_inherited()
-sma = 1
+sma = 5
