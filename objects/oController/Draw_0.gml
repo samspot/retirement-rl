@@ -17,7 +17,7 @@ if(debug_mode){
 
 
 DrawTextShadowed(0, 360, "cash: " + string(oPlayer.cash))
-DrawTextShadowed(0, 380, "expenses: " + string(oPlayer.expenses))
+DrawTextShadowed(0, 380, "expenses: " + string(GetExpenses()))
 DrawTextShadowed(0, 400, "age: " + string(oPlayer.age))
 
 var market = "Stable"

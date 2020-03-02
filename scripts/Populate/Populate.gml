@@ -23,11 +23,26 @@ for(i = 0; i < enemyNum; i++){
 */
 
 with(pItem) instance_destroy()
+with(oInnerWall) instance_destroy()
 
-CreateEntity(choose(oItemIra, oItemEmp, oItemSma), entity.item)
 CreateEntity(oExit, entity.item)
 
-for(i = 0; i < 3; i++){
-	CreateEntity(oItemCash, entity.item)
+for(i = 0; i < 3; i++){	
 	CreateEntity(oInnerWall, entity.wall)
+}
+
+for(i = 0; i < 10; i++){
+	if(oPlayer.age < 35){
+		CreateEntity(choose(oItemCash, oItemCash, oItemCash, oItemCash2), entity.item)
+	} else if(oPlayer.age >= 35 && oPlayer.age < 50){
+		CreateEntity(choose(oItemCash, oItemCash2, oItemCash2, oItemCash3), entity.item)
+	} else if(oPlayer.age >= 50 && oPlayer.age < 65) {
+		CreateEntity(choose(oItemCash, oItemCash2, oItemCash3, oItemCash3), entity.item)
+	}
+}
+
+for(i=0; i < 10; i++){
+	if(oPlayer.age < 65){
+		CreateEntity(choose(oItemIra, oItemEmp, oItemSma), entity.item)
+	}
 }

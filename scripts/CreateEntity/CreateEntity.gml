@@ -9,4 +9,5 @@ do {
 } until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
 instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", o)
+
 ds_grid_set(oController.grid, eX, eY, t)
