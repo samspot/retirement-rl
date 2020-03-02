@@ -1,8 +1,8 @@
 {
-    "id": "1c2aca23-6cf8-4fb3-a08e-9f82ebe4efa1",
+    "id": "3809879e-9dab-4fac-a6d4-1ee763acf72f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "CreateCash",
+    "name": "CreateEntity",
     "IsCompatibility": false,
     "IsDnD": false
 }
