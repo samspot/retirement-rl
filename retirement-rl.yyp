@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "dc7e8053-bcb9-4bdf-beca-29c2af0e03cf",
+            "Value": {
+                "id": "48ebbdbd-c7e3-4a20-b213-d8fb5d6f0c00",
+                "resourcePath": "objects\\oFlickListener\\oFlickListener.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df75ce34-ff14-4cb3-9a2e-e1054b6f3891",
             "Value": {
                 "id": "f6e99bf6-7606-4dd7-b537-75314a570658",

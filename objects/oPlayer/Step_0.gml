@@ -1,11 +1,9 @@
 /// @description player movement
 
-//var right = keyboard_check(vk_right)
-var right = IRight()
-var down = IDown()
-//var left = keyboard_check(vk_left)
-var left = ILeft()
-var up = IUp()
+var right = IRight() || oFlickListener.right > 0
+var down = IDown() || oFlickListener.down > 0
+var left = ILeft() || oFlickListener.left > 0
+var up = IUp() || oFlickListener.up > 0
 
 // sync player grid coords with the controller
 if(hspeed == 0 && vspeed == 0){
