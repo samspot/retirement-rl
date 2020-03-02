@@ -1,5 +1,9 @@
 /// CheckEndGame() - See if the player died or ran out of $$
 
+if(debug_mode){
+	return false;
+}
+
 var gameOver = false
 
 if(GetNetWorth() < 0) {
@@ -7,8 +11,8 @@ if(GetNetWorth() < 0) {
 	global.deathmsg = "You ran out of money!"
 }
 if(oPlayer.age > 70){
-	var deathChance = oPlayer.age - 70
-	if(random_range(0, 100) <= deathChance){
+	//var deathChance = oPlayer.age - 70
+	if(random_range(0, 100) <= GetDeathRisk()){
 		gameOver = true	
 		global.deathmsg = "You died of dysentery."
 	}

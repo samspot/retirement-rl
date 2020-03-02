@@ -17,3 +17,10 @@ age = 18
 //age = 65
 expenses = 3000
 dead = false
+happiness = 0
+married = false
+
+if(debug_mode){
+	cash = 1000000
+	expenses = 1
+}

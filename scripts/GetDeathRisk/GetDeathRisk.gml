@@ -1,0 +1,1 @@
+return oPlayer.age - 70 - oPlayer.happiness

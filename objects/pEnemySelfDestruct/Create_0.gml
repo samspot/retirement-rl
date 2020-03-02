@@ -7,5 +7,7 @@ damage = 1
 
 cash = 0
 expenses = 0
+happiness = 0
+married = false
 
 event_inherited()
