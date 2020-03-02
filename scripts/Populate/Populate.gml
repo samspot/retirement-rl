@@ -23,3 +23,8 @@ do {
 	
 instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oItemHp, oItemDmg, oItemMv))
 ds_grid_set(oController.grid, eX, eY, entity.item)
+
+// create cash
+for(i = 0; i < 3; i++){
+	CreateCash()	
+}

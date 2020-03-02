@@ -4,5 +4,6 @@
 hp += other.hp
 damage += other.damage
 maxMoves += other.maxMoves
+cash += other.cash
 
 with(other) instance_destroy()

@@ -2,10 +2,10 @@
 
 randomize()
 
-dim = 20
+dim = 40
 
-gridWidth = 10
-gridHeight = 10
+gridWidth = 8
+gridHeight = 9
 
 enum entity {
 	empty = 0,	

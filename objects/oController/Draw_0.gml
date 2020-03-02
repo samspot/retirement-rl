@@ -14,3 +14,13 @@ if(debug_mode){
 		}
 	}
 }
+
+	draw_set_color(c_black)
+	draw_text(1, 401, "cash: " + string(oPlayer.cash))
+	
+	draw_set_color(c_black)
+	draw_text(2, 402, "cash: " + string(oPlayer.cash))
+
+	draw_set_color(c_white)
+	draw_text(0, 400, "cash: " + string(oPlayer.cash))
+	
