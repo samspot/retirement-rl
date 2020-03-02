@@ -12,4 +12,5 @@ ds_grid_set(c.grid, gX, gY, entity.empty)
 
 alarm[0] = c.dim / mSpeed // how much time is needed to make it from one tile to the next
 moves--
+age++
 canMove = false

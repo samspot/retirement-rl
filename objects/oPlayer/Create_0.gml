@@ -8,3 +8,4 @@ maxMoves = 2
 moves = maxMoves
 damage = 1
 cash = 0
+age = 18
