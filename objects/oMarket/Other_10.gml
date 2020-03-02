@@ -16,14 +16,13 @@ if(market_state == marketState.STABLE){
 	delta = choose(1.04, 1.05, 1.06)
 }
 
-// TODO differentiate vehicles somewhat
 if(delta > 0){
 	balance_ira *= delta
 	balance_emp *= delta
-	balance_sma *= delta
+	balance_sma *= delta + 0.04 // buff SMAs
 } else {
 	balance_ira -= abs(balance_ira * delta)
 	balance_emp -= abs(balance_emp * delta)
-	balance_sma -= abs(balance_sma * delta)
+	balance_sma -= abs(balance_sma * (delta - 0.04)) // buff SMAs
 }
 
