@@ -34,7 +34,7 @@ if(string_length(argument0) > 100){
 	xPos = room_width * .95
 	yPos = room_height * .95
 	text_width = room_width * .90
-	text_height = room_height / 3
+	text_height = room_height / 2.5
 }
 
 if ( ( ( xPos - room_width + text_width) <= ( room_width - 5) ) && ( xPos - text_width ) < 0 )
