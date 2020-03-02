@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "56798844-9d51-4fb6-b463-de7fcfae7172",
+            "Value": {
+                "id": "5f390ee2-0ea2-4164-8b89-77a0913d54c2",
+                "resourcePath": "objects\\oMarket\\oMarket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58257809-0d97-4086-ab47-0a22420f374c",
             "Value": {
                 "id": "91255815-c4a1-4ff5-9aef-f25638c933cf",

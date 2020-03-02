@@ -19,3 +19,6 @@ if(debug_mode){
 DrawTextShadowed(0, 360, "age: " + string(oPlayer.age))
 DrawTextShadowed(0, 380, "expenses: " + string(oPlayer.expenses))
 DrawTextShadowed(0, 400, "cash: " + string(oPlayer.cash))
+
+var market = oMarket.market_state == 1 ? "Bull" : "Bear"
+DrawTextShadowed(150, 360, "market: " + market)
