@@ -8,6 +8,5 @@ gY = PixelToGrid(y)
 image_speed = 0
 image_index = floor(random(sprite_get_number(sprite_index)))
 
-var scale = 1.6
-image_xscale = scale
-image_yscale = scale
+image_xscale = global.spriteScale
+image_yscale = global.spriteScale
