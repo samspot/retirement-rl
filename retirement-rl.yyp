@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "6bcc3a4d-27cb-4b26-913e-f050e1554612",
+            "Value": {
+                "id": "98092f86-a8a8-417c-a5cf-277df109e75a",
+                "resourcePath": "objects\\pCash\\pCash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71c33f5e-910a-4c5a-84ae-40eba84f0509",
             "Value": {
                 "id": "95c74316-6c39-45bc-bf35-cac4df9eae3b",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "965fe763-9e86-4724-844d-c42e15076af9",
+            "Value": {
+                "id": "58b684d3-dab1-430c-b15b-ff19df041fe2",
+                "resourcePath": "objects\\oPet\\oPet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "966c42ac-2238-4164-a3da-d92e1e991d16",
             "Value": {
                 "id": "f06dd397-cbaa-474c-b983-c32629a5885d",
@@ -735,6 +751,14 @@
             }
         },
         {
+            "Key": "bd0da8d3-6fe3-476b-931e-ba654540ffe1",
+            "Value": {
+                "id": "e6e81627-15ad-4ba9-b325-acd84023e4c4",
+                "resourcePath": "sprites\\sPet\\sPet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfaefb8d-709e-45d1-8691-e9ab0e030daa",
             "Value": {
                 "id": "fbaf534e-3761-4588-b6a5-a7452934e857",
@@ -748,6 +772,14 @@
                 "id": "56ab7f54-b11d-4956-833a-8599882aee49",
                 "resourcePath": "scripts\\Attack\\Attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c99d100d-ca41-4a0b-bd9b-eaeb9618fa50",
+            "Value": {
+                "id": "c940ac14-8cff-4bd2-be84-be4410bd8d55",
+                "resourcePath": "objects\\pCompanion\\pCompanion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -844,6 +876,14 @@
                 "id": "8693cc9e-f3a0-4dd7-b734-05a85518b78c",
                 "resourcePath": "views\\eb2c9220-1711-4669-9398-76628e612218.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb3c4a8d-5b50-4e2d-9238-aba402da3273",
+            "Value": {
+                "id": "7cef6463-7dd7-4b51-a311-7cc200b110f6",
+                "resourcePath": "objects\\oEnemyPet\\oEnemyPet.yy",
+                "resourceType": "GMObject"
             }
         },
         {

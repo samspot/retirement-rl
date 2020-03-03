@@ -1,10 +1,10 @@
 /// enemy stuff
 
 if(canMove){
-	var pRight = CheckGridCollision(gX + 1, gY, entity.player)
-	var pDown = CheckGridCollision(gX, gY + 1, entity.player)
-	var pLeft = CheckGridCollision(gX - 1, gY, entity.player)
-	var pUp = CheckGridCollision(gX, gY - 1, entity.player)
+	//var pRight = CheckGridCollision(gX + 1, gY, entity.player)
+	//var pDown = CheckGridCollision(gX, gY + 1, entity.player)
+	//var pLeft = CheckGridCollision(gX - 1, gY, entity.player)
+	//var pUp = CheckGridCollision(gX, gY - 1, entity.player)
 	
 	// attack if player adjacent
 	/*if(pRight || pDown || pLeft || pUp){
@@ -19,7 +19,15 @@ if(canMove){
 		// fill blank grid with all obstacles
 		for(iy = 0; iy < c.gridHeight; iy++){
 			for(ix = 0; ix < c.gridWidth; ix++){
-				if(ds_grid_get(c.grid, ix, iy) != 0) mp_grid_add_cell(c.enemyGrid, ix, iy)
+				var entityHere = ds_grid_get(c.grid, ix, iy)
+				if(entityHere != entity.empty){
+					if(itemsBlock){
+						mp_grid_add_cell(c.enemyGrid, ix, iy)
+					} else if(entityHere != entity.item){
+						// don't make items obstacles if this is a companion
+						mp_grid_add_cell(c.enemyGrid, ix, iy)
+					}
+				}
 			}
 		}
 		
