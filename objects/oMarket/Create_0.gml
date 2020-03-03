@@ -16,3 +16,10 @@ balance_sma = 0
 
 
 SimMarkets()
+
+
+image_xscale = 1.6
+image_yscale = 1.6
+
+x = room_width - 32
+y = room_height - 48
