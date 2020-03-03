@@ -7,7 +7,7 @@ toolTipText = "It's you!  Live as long as you can before you run out of money."
 c = oController
 canMove = true
 mSpeed = 4
-mSpeed = 12
+//mSpeed = 12
 hp = 9
 maxMoves = 2
 moves = maxMoves
@@ -27,5 +27,5 @@ if(debug_mode){
 }
 
 
-image_xscale = 1.1
-image_yscale = 1.3
+image_xscale = global.spriteScale
+image_yscale = global.spriteScale

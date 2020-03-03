@@ -11,7 +11,7 @@ global.netWorth = 0
 draw_set_valign(fa_middle);
 
 dim = 52
-global.spriteScale = 1.6
+global.spriteScale = 1.625
 
 //dim = 32
 //global.spriteScale = 1.0

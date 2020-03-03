@@ -2,7 +2,7 @@ maxMoves = 2
 hp = 1
 
 event_inherited()
-toolTipText = "Pets make you happy, and help you pick things up."
+toolTipText = "This is your pet.  Isn't it cute?!"
 
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
