@@ -18,6 +18,7 @@ for(i = 0; i < enemyNum; i++){
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
 	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyBaby))
+	//instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyBaby))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
 

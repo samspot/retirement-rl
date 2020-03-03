@@ -7,12 +7,12 @@ if(canMove){
 	var pUp = CheckGridCollision(gX, gY - 1, entity.player)
 	
 	// attack if player adjacent
-	if(pRight || pDown || pLeft || pUp){
+	/*if(pRight || pDown || pLeft || pUp){
 		target.hp -= damage
 		moves = 1
 		alarm[0] = 10
 		canMove = false
-	} else { // prepare to pathfind
+	} else { // prepare to pathfind */
 		mp_grid_clear_all(c.enemyGrid)  // TODO enemyGrid should be in the enemy since its never shared... maybe.  Perf benefit to thsi way?
 		var iy, ix
 		
@@ -42,7 +42,7 @@ if(canMove){
 			canMove = false
 			moving = true
 		}
-	}
+	//}
 }
 
 if(hp <= 0) instance_destroy()

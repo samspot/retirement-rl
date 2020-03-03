@@ -1,6 +1,7 @@
 /// @description setup grid and basic level gen
 
 randomize()
+//random_set_seed(3)
 global.netWorth = 0
 
 draw_set_valign(fa_middle);
