@@ -1,7 +1,13 @@
 /// CheckEndGame() - See if the player died or ran out of $$
 
 if(debug_mode){
-	return false;
+	return false
+	/*
+	global.deathmsg = "debug msg"
+	if(oPlayer.age > 25){
+		return true
+	}
+	*/
 }
 
 var gameOver = false

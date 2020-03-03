@@ -28,4 +28,6 @@ switch(dir){
 
 canMove = false
 moves=0
-alarm[0] = 10
+
+			//alarm[0] = 10
+			alarm[0] = PLAYER_WAIT
