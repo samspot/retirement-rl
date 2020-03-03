@@ -5,7 +5,7 @@
 draw_set_font(fntFloating)
 draw_set_color(c_dkgray)
 
-//if(debug_mode){
+if(debug_mode){
 	var iy, ix
 
 	for(iy = 0; iy < gridHeight; iy++){
@@ -15,7 +15,7 @@ draw_set_color(c_dkgray)
 				ds_grid_get(grid, ix, iy))
 		}
 	}
-//}
+}
 
 // Set alignment to right
 //draw_set_halign(fa_right);
@@ -49,7 +49,7 @@ DrawTextShadowed(220, ys+80, "ira: " 	+ string(oMarket.ira)
 	+ ", emp: " + string(oMarket.emp)
 	+ ", sma: " + string(oMarket.sma))
 	
-//if(debug_mode){
+if(debug_mode){
 	var num = ds_list_size(oController.enemyQueue)
 	for(i=0; i<num; i++){
 		var en = ds_list_find_value(oController.enemyQueue, i)
@@ -57,4 +57,4 @@ DrawTextShadowed(220, ys+80, "ira: " 	+ string(oMarket.ira)
 	}
 	
 	DrawTextShadowed(0, 10+i*20, "player canmove" + string(oPlayer.canMove))	
-//}
+}

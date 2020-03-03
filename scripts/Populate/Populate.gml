@@ -57,7 +57,7 @@ for(i=0; i < 4; i++){
 		if(GetNetWorth() >= 100000){			
 			CreateEntity(choose(oItemSma, oItemEmp, oItemSma), entity.item)
 		} else {
-			CreateEntity(choose(oItemIra, oItemEmp, oItemEmp), entity.item)
+			CreateEntity(choose(oItemIra, oItemEmp, oItemEmp, oItemSma, oItemSma), entity.item)
 		}
 	}
 }
