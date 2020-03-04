@@ -943,14 +943,6 @@
             }
         },
         {
-            "Key": "c8980de1-7608-4052-9302-5475d8104bae",
-            "Value": {
-                "id": "0ad979c7-89cf-4a95-ad8e-cc28d4a3c28a",
-                "resourcePath": "sprites\\sIncome2\\sIncome2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c99d100d-ca41-4a0b-bd9b-eaeb9618fa50",
             "Value": {
                 "id": "c940ac14-8cff-4bd2-be84-be4410bd8d55",
@@ -1116,14 +1108,6 @@
                 "id": "8693cc9e-f3a0-4dd7-b734-05a85518b78c",
                 "resourcePath": "views\/eb2c9220-1711-4669-9398-76628e612218.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eb2dae88-9975-498f-afe7-dcc7a4cb8dee",
-            "Value": {
-                "id": "b0a82b8b-51ca-4e22-a052-a9136a362033",
-                "resourcePath": "sprites\\sIncome1\\sIncome1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
