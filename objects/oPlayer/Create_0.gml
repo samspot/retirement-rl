@@ -19,7 +19,9 @@ age = 18
 expenses = 3000
 dead = false
 happiness = 0
+
 married = false
+pets = 0
 
 if(debug_mode){
 	cash = 1000000

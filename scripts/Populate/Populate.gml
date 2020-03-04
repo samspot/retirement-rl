@@ -61,3 +61,10 @@ for(i=0; i < 4; i++){
 		}
 	}
 }
+
+for(i=0; i < oPlayer.pets; i++){
+	CreateEntity(oPet, entity.enemy)
+}
+if(oPlayer.married){
+	CreateEntity(oSpouseMarried, entity.enemy)
+}

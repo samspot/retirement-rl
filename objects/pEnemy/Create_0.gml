@@ -5,7 +5,7 @@ c = oController
 canMove = false
 moving = false
 target = oPlayer
-mSpeed = 50
+mSpeed = 4
 path = path_add()
 
 moves = maxMoves

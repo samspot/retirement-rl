@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "75b31738-74f5-4e8f-9867-7dca25540ba8",
+            "Value": {
+                "id": "35bfa44b-4c9e-4af8-838c-00e01010e45c",
+                "resourcePath": "sprites\\sSpouseMarried\\sSpouseMarried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7965b1d4-01c2-4847-b95f-b3fa455ed5e6",
             "Value": {
                 "id": "4f45bf79-04f0-4ad1-8974-30ec7cc14b23",
@@ -732,6 +740,14 @@
                 "id": "8d5a2087-48de-4fc9-a539-6127c4b9f597",
                 "resourcePath": "scripts\\IsLevelComplete\\IsLevelComplete.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bc496122-6a79-44e5-a8e8-33a9b969f64c",
+            "Value": {
+                "id": "df024031-2ce1-4cca-8030-ad469a5da7fd",
+                "resourcePath": "objects\\oSpouseMarried\\oSpouseMarried.yy",
+                "resourceType": "GMObject"
             }
         },
         {
