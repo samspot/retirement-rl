@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2e700e2c-f3b7-465f-848c-8fe892550265",
+            "Value": {
+                "id": "c55538cd-91f2-48c9-be0a-e7e9ef4c9a3a",
+                "resourcePath": "objects\\oInvBalance\\oInvBalance.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e8c0caf-7663-42e4-bfeb-2731cdaa2663",
             "Value": {
                 "id": "e0f7ddcc-1ccd-4147-9375-f9f5c8a1c043",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "7a1dddef-90eb-4e57-8783-ed1d8ac136af",
+            "Value": {
+                "id": "99bcac84-7db7-4595-8138-359605f36d11",
+                "resourcePath": "sprites\\sInvBalance\\sInvBalance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a971f4c-6d79-4100-9bb5-61492e4ee5f3",
             "Value": {
                 "id": "7c929aaa-43f5-4a56-b6b0-dc88a492b49c",
@@ -727,6 +743,14 @@
             }
         },
         {
+            "Key": "a0e1e274-bd98-4adb-9dee-6e03f7acd640",
+            "Value": {
+                "id": "39ee9810-3ee4-4aff-9f7e-0aaee96e0c92",
+                "resourcePath": "fonts\\fntGui\\fntGui.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a10d1d88-e501-40de-b544-7429d582c8f3",
             "Value": {
                 "id": "df9a54ce-12bb-4da2-834e-404fed5b0857",
@@ -780,6 +804,14 @@
                 "id": "f0ff1d3c-79a5-4a47-b45d-fbfcdeaef077",
                 "resourcePath": "scripts\/CheckGridCollision\/CheckGridCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "accebe05-b4ce-48de-bd0b-84b2b154215d",
+            "Value": {
+                "id": "7786a3ae-1d6c-4f82-8286-5600471bc90a",
+                "resourcePath": "sprites\\sIncome\\sIncome.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -884,6 +916,14 @@
                 "id": "56ab7f54-b11d-4956-833a-8599882aee49",
                 "resourcePath": "scripts\/Attack\/Attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8980de1-7608-4052-9302-5475d8104bae",
+            "Value": {
+                "id": "0ad979c7-89cf-4a95-ad8e-cc28d4a3c28a",
+                "resourcePath": "sprites\\sIncome2\\sIncome2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1052,6 +1092,14 @@
                 "id": "8693cc9e-f3a0-4dd7-b734-05a85518b78c",
                 "resourcePath": "views\/eb2c9220-1711-4669-9398-76628e612218.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb2dae88-9975-498f-afe7-dcc7a4cb8dee",
+            "Value": {
+                "id": "b0a82b8b-51ca-4e22-a052-a9136a362033",
+                "resourcePath": "sprites\\sIncome1\\sIncome1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

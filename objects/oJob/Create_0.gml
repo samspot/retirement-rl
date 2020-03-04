@@ -1,7 +1,7 @@
 /// @description create job
 
 event_inherited()
-income = 1500
+income = 3500
 
 image_index = floor(random(sprite_get_number(sprite_index)))
 

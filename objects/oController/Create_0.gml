@@ -38,6 +38,12 @@ enum dirs {
 }
 
 
+#macro C_CASH c_yellow
+#macro C_IRA c_navy
+#macro C_EMP c_black
+#macro C_SMA c_green
+
+
 grid = ds_grid_create(gridWidth, gridHeight)
 
 var iy, ix
@@ -70,6 +76,7 @@ instance_create_layer(room_width - 32, room_height - 32, "Instances", oMarket)
 instance_create_layer(0, 0, "Instances", oInvestments)
 instance_create_layer(0, 0, "Instances", oIncome)
 instance_create_layer(0, 0, "Instances", oStress)
+instance_create_layer(0, 0, "Instances", oInvBalance)
 
 Populate()
 /*

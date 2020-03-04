@@ -25,8 +25,8 @@ married = false
 pets = 0
 
 if(debug_mode){
-	cash = 1000000
-	expenses = 1
+	//cash = 1000000
+	//expenses = 1
 }
 
 
