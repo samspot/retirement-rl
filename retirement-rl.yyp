@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "11890178-dfc4-4b15-861c-490498b11612",
+            "Value": {
+                "id": "949f7a08-6139-4217-a5bc-a6be10d46fd1",
+                "resourcePath": "sprites\\sJobIcon\\sJobIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11a5becd-fe94-4903-8d9f-3ba6ae8c5a43",
             "Value": {
                 "id": "903acede-725b-492a-af61-8fec9f53f41e",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "5bd6790a-fcef-4e44-9561-534dd7443dc6",
+            "Value": {
+                "id": "2d5aa153-091c-4380-85b6-a83e2da407b9",
+                "resourcePath": "sprites\\sEnemyIcon\\sEnemyIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f43e9a7-7d81-4e98-b474-25e985027ac2",
             "Value": {
                 "id": "1016b5a9-451c-4be7-b0bf-9acd827b5a67",
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "6cd98054-c834-4330-b524-a3d129036263",
+            "Value": {
+                "id": "d7d88772-9baf-4478-9343-a07f2909d86f",
+                "resourcePath": "sprites\\sPickupIcon\\sPickupIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6da6d481-428a-4dab-9a41-53788634a040",
             "Value": {
                 "id": "bb7c3d52-ed8c-4d58-b733-a5df067ee552",
@@ -403,6 +427,14 @@
             "Value": {
                 "id": "d3867960-7d3f-45db-b955-6dc00e11af68",
                 "resourcePath": "objects\\oIncome\\oIncome.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7156e99b-449e-4f6c-957a-e3197f11e1e7",
+            "Value": {
+                "id": "1047411d-80b5-4c28-8ef9-93f75e45e8bd",
+                "resourcePath": "objects\\oJob\\oJob.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -476,6 +508,14 @@
                 "id": "e6b0b871-a74d-4eeb-8669-305fcaa8faf1",
                 "resourcePath": "views\/7b9c84eb-58c8-4335-9660-55c8c4afa000.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c83a71c-5d6b-4432-9afc-ed9eb769c522",
+            "Value": {
+                "id": "6410843d-5321-4de4-92c8-55511502bb86",
+                "resourcePath": "sprites\\sJob\\sJob.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

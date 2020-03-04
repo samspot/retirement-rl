@@ -10,4 +10,6 @@ expenses = 0
 happiness = 0
 married = false
 
+icon = sEnemyIcon
+
 event_inherited()

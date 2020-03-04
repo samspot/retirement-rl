@@ -4,6 +4,7 @@
 hp += other.hp
 damage += other.damage
 maxMoves += other.maxMoves
+income += other.income
 //cash += other.cash
 AddCash(other.cash, true)
 

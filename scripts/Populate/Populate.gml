@@ -62,6 +62,10 @@ for(i=0; i < 4; i++){
 	}
 }
 
+if(oPlayer.age < 65){
+	CreateEntity(oJob, entity.item)	
+}
+
 for(i=0; i < oPlayer.pets; i++){
 	CreateEntity(oPet, entity.enemy)
 }
