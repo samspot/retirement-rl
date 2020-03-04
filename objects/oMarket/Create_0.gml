@@ -21,8 +21,8 @@ balance_sma = 0
 SimMarkets()
 
 
-x = room_width - sprite_width
-y = room_height - sprite_height
+x = room_width - sprite_width / 2 - 5
+y = room_height - sprite_height / 2 - 5
 
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale

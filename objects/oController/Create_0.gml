@@ -10,11 +10,14 @@ global.netWorth = 0
 
 draw_set_valign(fa_middle);
 
-dim = 52
-global.spriteScale = 1.625
+//dim = 52
+//global.spriteScale = 1.625
 
-//dim = 32
-//global.spriteScale = 1.0
+dim = 32
+global.spriteScale = 1.0
+
+//dim = 64
+//global.spriteScale = 2.0
 
 gridWidth = 8
 gridHeight = 9
