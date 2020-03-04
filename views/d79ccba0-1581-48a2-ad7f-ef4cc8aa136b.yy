@@ -15,7 +15,8 @@
         "157471fa-7e43-4392-9a4b-da33f9e34b75",
         "9823e3f6-b53d-4a73-b9cf-bd9d3543506c",
         "85767d72-cbbe-4dba-83b6-5a0b33e7dc52",
-        "eba0af63-8879-4c83-9768-400190dbbe1e"
+        "eba0af63-8879-4c83-9768-400190dbbe1e",
+        "76bb1a88-3665-44ad-997b-bf80d3a25795"
     ],
     "filterType": "GMScript",
     "folderName": "Gamestate",

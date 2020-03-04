@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "4931d7c3-1b95-4164-8ede-d6c5d8a93f09",
+            "Value": {
+                "id": "7dab187a-3d3f-4451-9d0f-ee1ef17c9215",
+                "resourcePath": "objects\\oStress\\oStress.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4af06339-741a-463c-b9d1-4da03fe5f942",
             "Value": {
                 "id": "cde2aa43-148b-4d8d-ad1c-8eca941c8e48",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "6ff5d572-fdd8-4e77-9603-513d92cf72f8",
+            "Value": {
+                "id": "d3867960-7d3f-45db-b955-6dc00e11af68",
+                "resourcePath": "objects\\oIncome\\oIncome.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71c33f5e-910a-4c5a-84ae-40eba84f0509",
             "Value": {
                 "id": "95c74316-6c39-45bc-bf35-cac4df9eae3b",
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "76bb1a88-3665-44ad-997b-bf80d3a25795",
+            "Value": {
+                "id": "c4e810cb-ba95-48f5-ad34-cd26182d8e98",
+                "resourcePath": "scripts\\GetStressLevel\\GetStressLevel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7965b1d4-01c2-4847-b95f-b3fa455ed5e6",
             "Value": {
                 "id": "4f45bf79-04f0-4ad1-8974-30ec7cc14b23",
@@ -435,6 +459,14 @@
             "Value": {
                 "id": "7c929aaa-43f5-4a56-b6b0-dc88a492b49c",
                 "resourcePath": "sprites\/sCash\/sCash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7aa9c123-e5fa-4ad6-a057-7f457526529c",
+            "Value": {
+                "id": "1064b710-ecfa-45e7-938b-c29701a394ea",
+                "resourcePath": "sprites\\sStress\\sStress.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1044,6 +1076,7 @@
         "9823e3f6-b53d-4a73-b9cf-bd9d3543506c",
         "85767d72-cbbe-4dba-83b6-5a0b33e7dc52",
         "eba0af63-8879-4c83-9768-400190dbbe1e",
+        "76bb1a88-3665-44ad-997b-bf80d3a25795",
         "f8423f10-8136-4336-919f-a01bdb6bdd9b",
         "75275f5d-2431-4347-ad17-76b328c330bd",
         "a10d1d88-e501-40de-b544-7429d582c8f3",
