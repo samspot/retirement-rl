@@ -7,6 +7,8 @@ event_inherited()
 x = room_width - 96
 y = room_height - 15
 
+y -= 37
+
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
 

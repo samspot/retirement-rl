@@ -43,6 +43,10 @@ enum dirs {
 #macro C_EMP c_black
 #macro C_SMA c_green
 
+// ui spacing
+#macro BOTTOM_BUFFER 5
+#macro LEFT_BUFFER 5
+#macro RIGHT_BUFFER 5
 
 grid = ds_grid_create(gridWidth, gridHeight)
 
