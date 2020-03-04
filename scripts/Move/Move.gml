@@ -19,21 +19,21 @@ age++
 if(age == 35){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
-		y = 400
+		y = room_height * .6
 		text = "You turned 36! Life is getting more expensive"
 	}	
 }
 if(age == 50){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
-		y = 400
+		y = room_height * .6
 		text = "You turned 50! Life is getting more expensive"
 	}	
 }
 if(age == 65){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
-		y = 400
+		y = room_height * .6
 		text = "You retired at age 65, no more income generated in levels and your expenses have gone up again."
 	}	
 }
