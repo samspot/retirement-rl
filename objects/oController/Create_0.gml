@@ -64,5 +64,6 @@ enemyInc = 1
 
 
 instance_create_layer(room_width - 32, room_height - 32, "Instances", oMarket)
+instance_create_layer(0, 0, "Instances", oInvestments)
 
 Populate()
