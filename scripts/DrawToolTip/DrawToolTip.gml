@@ -18,6 +18,7 @@ draw_set_alpha(argument4);
 // Set font
 draw_set_font(argument1);
 
+
 // Set Aligns
 draw_set_valign(fa_bottom);
 
@@ -44,6 +45,8 @@ if(string_length(argument0) > 50){
 	}
 }
 
+
+//surface_set_target(layer_get_id("ToolTips"))
 
 //if ( ( ( xPos - room_width + text_width) <= ( room_width - 5) ) && ( xPos - text_width ) < 0 )
 if(xPos < room_width / 2)
@@ -86,6 +89,8 @@ else
     draw_set_halign(fa_left);
 
 }
+
+//surface_reset_target()
 
 // Reset alignment
 draw_set_valign(fa_middle);    
