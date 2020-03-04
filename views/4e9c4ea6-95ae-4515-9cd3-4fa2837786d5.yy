@@ -9,7 +9,8 @@
         "3bcce077-8a5c-48ed-a560-854f9fde6da4",
         "6da6d481-428a-4dab-9a41-53788634a040",
         "cdb4489e-352b-456f-b550-a922031ae5e8",
-        "18cb4f34-eeea-4707-b7e4-14a4312cdcb9"
+        "18cb4f34-eeea-4707-b7e4-14a4312cdcb9",
+        "a3a39fd5-ec01-4f8b-be83-512c7203c0fc"
     ],
     "filterType": "GMScript",
     "folderName": "Money",

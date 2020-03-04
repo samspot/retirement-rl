@@ -2,7 +2,7 @@
 draw_self()
 
 // draw cashflow	
-var incomeDelta = min(68, ceil((oPlayer.income - GetExpenses()) / 100))
+var incomeDelta = min(68, ceil((GetPlayerIncome() - GetExpenses()) / 100))
 incomeDelta = max(-68, incomeDelta)
 var xStop = x
 var xStart = x
@@ -34,7 +34,7 @@ draw_text(xp, yp, str)
 
 toolTipText = "Your Net Worth - "
 	+ "Cash: $" + string(oPlayer.cash) + "\n"
-	+ "Annual Income: $" + string(oPlayer.income) + "\n"
+	+ "Annual Income: $" + string(GetPlayerIncome()) + "\n"
 	+ "Expenses: $" + string(GetExpenses()) + "\n"
 	
 	

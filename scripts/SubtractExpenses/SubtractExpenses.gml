@@ -1,8 +1,10 @@
 /// SubtractExpenses()
 
-AddCash(oPlayer.income, false)
+//if(oPlayer.age < 65){
+	AddCash(GetPlayerIncome(), false)
+//}
 var cash = oPlayer.cash
-//cash += oPlayer.income
+//cash += GetPlayerIncome()
 cash -= GetExpenses()
 
 if(cash < 0){
