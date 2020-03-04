@@ -21,7 +21,7 @@ if(debug_mode){
 //draw_set_halign(fa_right);
 
 // Draw rect around the text
-draw_roundrect_color( 0+2, room_height - 95, room_width-3, room_height-3, c_black, c_black, false);
+//draw_roundrect_color( 0+2, room_height - 95, room_width-3, room_height-3, c_black, c_black, false);
 	
 
 

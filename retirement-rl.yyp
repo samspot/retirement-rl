@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0d9636a2-e1c2-482a-aa2f-8db411076f31",
+            "Value": {
+                "id": "adc986ef-a899-4fbf-803c-57f0745edc82",
+                "resourcePath": "objects\\oMarketGui\\oMarketGui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0dedad90-f63e-4155-8bcb-bf80967eaf11",
             "Value": {
                 "id": "daf4c674-59b9-4b81-a337-3f7967cd5341",
@@ -796,6 +804,14 @@
                 "id": "18cb41b8-e061-40cf-b348-39909a5da7c1",
                 "resourcePath": "objects\/oFloatingText\/oFloatingText.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5cb9e25-6f06-4856-b5bf-539fc4765635",
+            "Value": {
+                "id": "e917a06b-f614-4d8e-a0be-048fb362faa4",
+                "resourcePath": "views\\a5cb9e25-6f06-4856-b5bf-539fc4765635.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

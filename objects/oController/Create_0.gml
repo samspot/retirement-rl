@@ -10,14 +10,8 @@ global.netWorth = 0
 
 draw_set_valign(fa_middle);
 
-//dim = 52
-//global.spriteScale = 1.625
-
 dim = 32
 global.spriteScale = 1.0
-
-//dim = 64
-//global.spriteScale = 2.0
 
 gridWidth = 8
 gridHeight = 9
@@ -76,17 +70,9 @@ level = 0
 enemyInc = 1
 
 
-instance_create_layer(room_width - 32, room_height - 32, "Instances", oMarket)
-instance_create_layer(0, 0, "Instances", oInvestments)
-instance_create_layer(0, 0, "Instances", oIncome)
-instance_create_layer(0, 0, "Instances", oStress)
-instance_create_layer(0, 0, "Instances", oInvBalance)
+instance_create_layer(0, 0, "Instances", oMarket)
 
 Populate()
-/*
-VIEW_HEIGHT = 0
-VIEW_WIDTH = 0
-ResizeGame()
-*/
 
+// ResizeGame()
 //display_set_gui_size(view_wport[0], view_hport[0]);
