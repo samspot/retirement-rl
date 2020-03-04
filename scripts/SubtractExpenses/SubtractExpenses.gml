@@ -1,6 +1,8 @@
 /// SubtractExpenses()
 
+AddCash(oPlayer.income, false)
 var cash = oPlayer.cash
+//cash += oPlayer.income
 cash -= GetExpenses()
 
 if(cash < 0){

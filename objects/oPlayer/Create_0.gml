@@ -14,6 +14,7 @@ moves = maxMoves
 damage = 1
 cash = 20000
 age = 18
+income = 1
 //cash = 5000
 //age = 65
 expenses = 3000

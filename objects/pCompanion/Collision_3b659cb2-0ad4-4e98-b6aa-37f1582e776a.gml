@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 
-AddCash(other.cash)
+AddCash(other.cash, true)
 
 with(other) instance_destroy()

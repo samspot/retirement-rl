@@ -1,26 +1,43 @@
-/// AddCash(amount)
+/// AddCash(amount, isPickup)
 var amount = argument0
-var cashPercent = GetCashPercent() //100 - oMarket.ira - oMarket.emp - oMarket.sma
-//oPlayer.cash += amount * 100 / cashPercent
-oPlayer.cash += amount * cashPercent
+var isPickup = argument1
+var cashPercent = GetCashPercent() 
+//oPlayer.cash += amount * cashPercent
+var finalAmount = amount
 
-with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-	text = "Got $" + string(amount)
+if(isPickup){
+	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
+		text = "Got $" + string(amount)
+	}
 }
 
 with(oMarket){
-	var iraAmount = amount * GetIraPercent()
-	if(iraAmount > 7000){
-		balance_ira += 7000
-		oPlayer.cash += iraAmount - 7000
-	} else {
-		balance_ira += iraAmount	
+	if(isPickup){
+		var iraAmount = amount * GetIraPercent()
+		if(iraAmount > 7000){
+			balance_ira += 7000
+			//oPlayer.cash += iraAmount - 7000
+			finalAmount -= 7000
+		} else {
+			balance_ira += iraAmount	
+			finalAmount -= iraAmount
+		}
 	}
 	//balance_ira += amount * ira / 100	
-	balance_emp += amount * GetEmpPercent()
-	
-	if(oPlayer.age < 65){
-		balance_emp += (amount * max(emp, 7)) / 100  // 401k employer match
+	if(!isPickup){
+		if(GetEmpPercent() > 0){
+			var empAmount = amount * GetEmpPercent()
+			balance_emp += empAmount
+			finalAmount -= empAmount
+		
+			if(oPlayer.age < 65){
+				balance_emp += (amount * max(emp, 7)) / 100  // 401k employer match
+			}
+		}
+		var smaAmount = amount * GetSmaPercent()
+		balance_sma += smaAmount
+		finalAmount -= smaAmount
 	}
-	balance_sma += amount * GetSmaPercent()
+	
+	oPlayer.cash += finalAmount
 }
