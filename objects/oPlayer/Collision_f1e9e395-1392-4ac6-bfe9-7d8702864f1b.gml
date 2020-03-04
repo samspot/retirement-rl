@@ -14,4 +14,7 @@ with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 	text = str
 }
 
-with(other) instance_destroy()
+with(other){
+	event_user(0)
+	instance_destroy()
+}
