@@ -17,7 +17,7 @@ for(i = 0; i < enemyNum; i++){
 		eY = irandom_range(1, gridWidth-2) 
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
-	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyBaby))
+	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyBaby, oEnemyPet))
 	//instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyBaby))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
@@ -60,4 +60,11 @@ for(i=0; i < 4; i++){
 			CreateEntity(choose(oItemIra, oItemEmp, oItemEmp), entity.item)
 		}
 	}
+}
+
+for(i=0; i < oPlayer.pets; i++){
+	CreateEntity(oPet, entity.enemy)
+}
+if(oPlayer.married){
+	CreateEntity(oSpouseMarried, entity.enemy)
 }

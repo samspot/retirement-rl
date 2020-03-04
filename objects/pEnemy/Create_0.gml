@@ -5,7 +5,7 @@ c = oController
 canMove = false
 moving = false
 target = oPlayer
-mSpeed = 5
+mSpeed = 4
 path = path_add()
 
 moves = maxMoves
@@ -17,5 +17,6 @@ ds_grid_set(c.grid, gX, gY, entity.enemy)
 
 damage = 1
 
+itemsBlock = true
 event_inherited()
 toolTipText = "This is the ENEMY parent item \nChildren should override it."

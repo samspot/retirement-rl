@@ -19,7 +19,9 @@ age = 18
 expenses = 3000
 dead = false
 happiness = 0
+
 married = false
+pets = 0
 
 if(debug_mode){
 	cash = 1000000
@@ -27,5 +29,5 @@ if(debug_mode){
 }
 
 
-image_xscale = 1.1
-image_yscale = 1.3
+image_xscale = global.spriteScale
+image_yscale = global.spriteScale

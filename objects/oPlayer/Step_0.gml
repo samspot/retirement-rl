@@ -9,6 +9,10 @@ var up = IUp() || oFlickListener.up > 0
 if(hspeed == 0 && vspeed == 0){
 	gX = PixelToGrid(x)
 	gY = PixelToGrid(y)
+	
+	// and fix any x/y discrepancies
+	x = GridToPixel(gX)
+	y = GridToPixel(gY)
 	ds_grid_set(c.grid, gX, gY, entity.player)
 }
 

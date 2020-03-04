@@ -1,13 +1,17 @@
 /// @description setup grid and basic level gen
 
-randomize()
-//random_set_seed(3)
+if(debug_mode){
+	random_set_seed(3)
+} else {
+	randomize()
+}
+
 global.netWorth = 0
 
 draw_set_valign(fa_middle);
 
 dim = 52
-global.spriteScale = 1.6
+global.spriteScale = 1.625
 
 //dim = 32
 //global.spriteScale = 1.0
