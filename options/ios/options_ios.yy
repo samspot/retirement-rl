@@ -36,7 +36,7 @@
     "option_ios_orientation_portrait_flipped": true,
     "option_ios_output_dir": "~\/GameMakerStudio2\/iOS",
     "option_ios_push_notifications": false,
-    "option_ios_scale": 0,
+    "option_ios_scale": 1,
     "option_ios_splashscreen_ipad_ios56_landscape": "${base_options_dir}\\ios\\splash\\ipad_landscape_1024x748.png",
     "option_ios_splashscreen_ipad_ios56_portrait": "${base_options_dir}\\ios\\splash\\ipad_portrait_768x1004.png",
     "option_ios_splashscreen_ipad_ios56_x2_landscape": "${base_options_dir}\\ios\\splash\\ipad_landscape_2048x1496.png",

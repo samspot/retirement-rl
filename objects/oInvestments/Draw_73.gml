@@ -36,3 +36,6 @@ if(smaPercent > 0){
 	draw_set_colour(c_green);
 	draw_rectangle(gSma, gBottom-barlen, gSma+4, gBottom, false)
 }
+
+
+event_inherited()		

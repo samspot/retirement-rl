@@ -72,3 +72,8 @@ instance_create_layer(0, 0, "Instances", oIncome)
 instance_create_layer(0, 0, "Instances", oStress)
 
 Populate()
+/*
+VIEW_HEIGHT = 0
+VIEW_WIDTH = 0
+ResizeGame()
+*/
