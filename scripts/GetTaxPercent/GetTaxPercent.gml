@@ -1,0 +1,2 @@
+/// GetTaxPercent()
+return 0

@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+event_inherited()
+
 enum marketState {
 	BEAR, BULL, STABLE
 }
@@ -18,8 +21,8 @@ balance_sma = 0
 SimMarkets()
 
 
+x = room_width - sprite_width
+y = room_height - sprite_height
+
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
-
-x = room_width - 32
-y = room_height - 48

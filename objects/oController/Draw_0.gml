@@ -27,7 +27,7 @@ draw_roundrect_color( 0+2, room_height - 120, room_width-3, room_height-3, c_bla
 //draw_set_halign(fa_left);
 
 // y starting point for gui
-var ys = 460
+var ys = 450
 
 DrawTextShadowed(4, ys, "cash: " + string(oPlayer.cash))
 DrawTextShadowed(4, ys+20, "expenses: " + string(GetExpenses()))
@@ -44,11 +44,12 @@ if(oMarket.market_state == 0) market = "Bear"
 DrawTextShadowed(220, ys, "ira$: " + string(oMarket.balance_ira))
 DrawTextShadowed(220, ys+20, "emp$: " + string(oMarket.balance_emp))
 DrawTextShadowed(220, ys+40, "sma$: " + string(oMarket.balance_sma))
+/*
 DrawTextShadowed(220, ys+60, "market: " + market)
 DrawTextShadowed(220, ys+80, "ira: " 	+ string(oMarket.ira)
 	+ ", emp: " + string(oMarket.emp)
 	+ ", sma: " + string(oMarket.sma))
-	
+*/
 if(debug_mode){
 	var num = ds_list_size(oController.enemyQueue)
 	for(i=0; i<num; i++){
