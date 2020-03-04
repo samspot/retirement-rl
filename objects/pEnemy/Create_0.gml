@@ -6,6 +6,7 @@ canMove = false
 moving = false
 target = oPlayer
 mSpeed = 4
+mSpeed = 12
 path = path_add()
 
 moves = maxMoves

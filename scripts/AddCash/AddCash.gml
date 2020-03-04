@@ -3,6 +3,10 @@ var amount = argument0
 var cashPercent = 100 - oMarket.ira - oMarket.emp - oMarket.sma
 oPlayer.cash += amount * 100 / cashPercent
 
+with(instance_create_layer(0, 0, "Instances", oFloatingText)){
+	text = "Got $" + string(amount)
+}
+
 with(oMarket){
 	var iraAmount = amount * ira / 100
 	if(iraAmount > 7000){
