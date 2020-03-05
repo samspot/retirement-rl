@@ -1,10 +1,5 @@
 /// @description save high scores to a file
 
-
-
-
-
-
 //#macro SAVEFILE "scores.sav"
 #macro SAVEFILE "scores.json"
 
@@ -23,7 +18,8 @@ ds_map_add(newEntry, "netWorth", netWorth)
 ds_map_add(newEntry, "age", age)
 ds_map_add(newEntry, "msg", msg)
 
-var key = string(age)+"-"+string(netWorth)
+//var key = string(age)+"-"+string(netWorth)
+var key = string(netWorth)+"-"+string(age)
 
 if(file_exists(SAVEFILE)){
 	var file = file_text_open_read(SAVEFILE)
