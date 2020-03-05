@@ -46,9 +46,9 @@ surface_resize(application_surface, ww, hh);
 //*
 var base_w = 256;
 var base_h = 384;
-var max_w = display_get_width();
-var max_h = display_get_height();
-var aspect = display_get_width() / display_get_height();
+var max_w = window_get_width();//display_get_width(); 
+var max_h = window_get_height(); //display_get_height();
+var aspect = max_w / max_h;
 
 var VIEW_HEIGHT = 0
 var VIEW_WIDTH = 0
@@ -77,7 +77,7 @@ if (max_w < max_h){
 }//*/
 
 	
-//camera_set_view_size(view_camera[0], floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
+camera_set_view_size(view_camera[0], floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
 view_wport[0] = max_w;
 view_hport[0] = max_h;
 surface_resize(application_surface, view_wport[0], view_hport[0]);
