@@ -14,7 +14,7 @@ with(oController){
 for(i = 0; i < enemyNum; i++){
 	do {
 		eX = irandom_range(1, gridWidth-2)
-		eY = irandom_range(1, gridWidth-2) 
+		eY = irandom_range(1, gridHeight-2) 
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
 	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyBaby, oEnemyPet))
@@ -25,7 +25,7 @@ for(i = 0; i < enemyNum; i++){
 if(!oPlayer.married && irandom_range(1, 100) > 50){
 	do {
 		eX = irandom_range(1, gridWidth-2)
-		eY = irandom_range(1, gridWidth-2) 
+		eY = irandom_range(1, gridHeight-2) 
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
 	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemySpouse))
