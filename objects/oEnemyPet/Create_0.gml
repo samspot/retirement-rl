@@ -1,7 +1,7 @@
 event_inherited()
-cash = 2000
-happiness = 2
-expenses = 500
+cash = oBalance.petCash // 2000
+happiness = oBalance.petHappiness // 2
+expenses = oBalance.petExpenses // 500
 text = "You have a new pet!"
 toolTipText = "Pets make you happy, and help you pick things up."
 

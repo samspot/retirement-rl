@@ -1,6 +1,6 @@
 event_inherited()
 
-cash = 4000
+cash = oBalance.phishingCash //4000
 happiness = 0
 expenses = 0
 retirement = 0

@@ -1,7 +1,7 @@
 /// @description get cash
 
 event_inherited()
-ira = 5
+ira = oBalance.iraPickupPercent //5
 
 toolTipText = "A Roth IRA is a special retirement account where you pay\n" 
 			+ "taxes on money going into your account and then all future\n" 

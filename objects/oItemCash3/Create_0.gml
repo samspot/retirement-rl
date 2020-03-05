@@ -1,7 +1,7 @@
 /// @description get cash
 
 event_inherited()
-cash = 20000
+cash = oBalance.cash3 //20000
 
 
 //toolTipText = " $" + string_format(cash, 5, 2) + " in cold hard cash."

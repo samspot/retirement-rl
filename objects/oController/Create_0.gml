@@ -82,6 +82,8 @@ enemyNum = 1
 
 
 instance_create_layer(0, 0, "Instances", oMarket)
+instance_create_layer(0, 0, "Instances", oBalance)
+
 
 Populate()
 

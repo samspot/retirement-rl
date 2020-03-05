@@ -1,5 +1,5 @@
 event_inherited()
-cash = 3000
+cash = oBalance.tvCash //3000
 happiness = 0
 expenses = 0
 text = "You bought a TV!"

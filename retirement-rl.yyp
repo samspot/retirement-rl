@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "9717e079-4f56-40de-93ff-e361c362d22b",
+            "Value": {
+                "id": "5621e299-acc1-4f99-92d4-ec3ecc2634d7",
+                "resourcePath": "objects\\oBalance\\oBalance.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97d91bcf-50b3-40c6-bf79-2ab2a52eef4d",
             "Value": {
                 "id": "a6f03d33-1e96-4b2c-928f-e0d5bbd20fa0",
