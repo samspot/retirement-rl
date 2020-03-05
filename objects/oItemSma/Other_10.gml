@@ -1,5 +1,6 @@
+/// @description spawn floating text
 event_inherited()
 
 with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-	text = "Added " + string(other.sma) + "% SMA contribution"
+	text = "+" + string(other.sma) + "% SMA contribution per turn."
 }

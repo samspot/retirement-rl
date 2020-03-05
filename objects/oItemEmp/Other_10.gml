@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description spawn floating text
 with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-	text = "Added " + string(other.emp) + "% 401(k) contribution"
+	text = "+" + string(other.emp) + "% 401(k) contribution per turn."
 }
