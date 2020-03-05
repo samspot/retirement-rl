@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2e4ab62a-0f1a-48b9-9d93-e4f7e41a2c24",
+            "Value": {
+                "id": "87292558-363d-4d4a-b524-be4b4e1ddb64",
+                "resourcePath": "objects\\oEnemyCrook\\oEnemyCrook.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e700e2c-f3b7-465f-848c-8fe892550265",
             "Value": {
                 "id": "c55538cd-91f2-48c9-be0a-e7e9ef4c9a3a",
@@ -812,6 +820,14 @@
                 "id": "9213bda7-8dae-4764-9102-6a337625ae3a",
                 "resourcePath": "objects\\oLButton\\oLButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8f68a311-340f-4e5c-b653-3d6307e4fe58",
+            "Value": {
+                "id": "d0aa756b-18bc-4309-9b3c-7ef0d6162373",
+                "resourcePath": "sprites\\sCrook\\sCrook.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

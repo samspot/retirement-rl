@@ -31,6 +31,12 @@ enum dirs {
 	up
 }
 
+enum invVehicles {
+	ira,
+	emp,
+	sma
+}
+
 
 #macro C_CASH c_yellow
 #macro C_IRA c_navy
