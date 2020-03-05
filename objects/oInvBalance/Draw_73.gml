@@ -28,9 +28,9 @@ if(oMarket.balance_sma > 0){
 	draw_rectangle(xStart, yStart+20, xStop, yStart+23, false)
 }
 
-toolTipText = ""
+toolTipText = "Investment Balances\n"
 	+ "IRA   " + CashFmt(oMarket.balance_ira) + "\n"
 	+ "401(k)" + CashFmt(oMarket.balance_emp) + "\n"
-	+ "sma: $" + CashFmt(oMarket.balance_sma) + "\n"
+	+ "SMA" + CashFmt(oMarket.balance_sma) + "\n"
 	
 event_inherited()		

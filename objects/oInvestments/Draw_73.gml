@@ -4,11 +4,11 @@ draw_self()
 var barlen = 0
 var cashPercent = GetCashPercent() //(100 - oMarket.ira - oMarket.emp - oMarket.sma) / 100
 
-toolTipText = "Your Allocations - "
-	+ "Cash: " + string(GetCashPercent()*100) + "%\n"
-	+ "IRA: " + string(GetIraPercent()*100) + "%\n"
-	+ "401(k): " + string(GetEmpPercent()*100) + "%\n"
-	+ "SMA: " + string(GetSmaPercent()*100) + "%\n"
+toolTipText = "Inv Allocations\n"
+	+ "Cash " + string(GetCashPercent()*100) + "%\n"
+	+ "IRA " + string(GetIraPercent()*100) + "%\n"
+	+ "401(k) " + string(GetEmpPercent()*100) + "%\n"
+	+ "SMA " + string(GetSmaPercent()*100) + "%\n"
 
 if(cashPercent > 0){
 	barlen = hDelta * cashPercent

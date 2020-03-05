@@ -32,10 +32,10 @@ draw_text(xp, yp, str)
 	*/
 
 
-toolTipText = "Your Net Worth - "
-	+ "Cash: $" + string(oPlayer.cash) + "\n"
-	+ "Annual Income: $" + string(GetPlayerIncome()) + "\n"
-	+ "Expenses: $" + string(GetExpenses()) + "\n"
+toolTipText = "Cash Flow\n"
+	+ "        Cash" + CashFmt(oPlayer.cash) + "\n"
+	+ "   Income" + CashFmt(GetPlayerIncome()) + "\n"
+	+ "Expenses" + CashFmt(GetExpenses()) + "\n"
 	
 	
 event_inherited()		
