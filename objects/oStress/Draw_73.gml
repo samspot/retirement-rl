@@ -5,7 +5,9 @@ image_index = stressLevel
 
 draw_self()
 
-DrawTextShadowed(x+sprite_width/2, y, "Age " + string(oPlayer.age))
+draw_set_font(fntGui)
+DrawTextShadowed(x+sprite_width/2, y, "Age " + string(oPlayer.age), fntGui)
+
 
 toolTipText = "happiness: " + string(oPlayer.happiness) + "\n"
 			+ "death risk: " + string(GetDeathRisk())
