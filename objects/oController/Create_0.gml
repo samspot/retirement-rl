@@ -42,8 +42,8 @@ enum dirs {
 #macro LEFT_BUFFER 5
 #macro RIGHT_BUFFER 5
 
-#macro DEATH_CONSTANT 70
-//#macro DEATH_CONSTANT -10
+//#macro DEATH_CONSTANT 70
+#macro DEATH_CONSTANT -10
 
 grid = ds_grid_create(gridWidth, gridHeight)
 
