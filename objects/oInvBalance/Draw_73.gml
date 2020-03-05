@@ -29,8 +29,8 @@ if(oMarket.balance_sma > 0){
 }
 
 toolTipText = ""
-	+ "ira: $" + string(oMarket.balance_ira) + "\n"
-	+ "emp: $" + string(oMarket.balance_emp) + "\n"
-	+ "sma: $" + string(oMarket.balance_sma) + "\n"
+	+ "IRA   " + CashFmt(oMarket.balance_ira) + "\n"
+	+ "401(k)" + CashFmt(oMarket.balance_emp) + "\n"
+	+ "sma: $" + CashFmt(oMarket.balance_sma) + "\n"
 	
 event_inherited()		
