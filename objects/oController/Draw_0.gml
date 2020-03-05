@@ -34,8 +34,8 @@ if(debug_mode){
 	var num = ds_list_size(oController.enemyQueue)
 	for(i=0; i<num; i++){
 		var en = ds_list_find_value(oController.enemyQueue, i)
-		DrawTextShadowed(0, 10+i*20, "Enemy queue" + string(i) + " " + string(en), fntGui)	
+		DrawTextShadowed(0, 10+i*20, "Enemy queue" + string(i) + " " + string(en), fntGui, 0)	
 	}
 	
-	DrawTextShadowed(0, 10+i*20, "player canmove" + string(oPlayer.canMove), fntGui)	
+	DrawTextShadowed(0, 10+i*20, "player canmove" + string(oPlayer.canMove), fntGui, 0)	
 }

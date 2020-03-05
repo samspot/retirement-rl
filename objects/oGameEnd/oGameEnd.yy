@@ -5,16 +5,6 @@
     "name": "oGameEnd",
     "eventList": [
         {
-            "id": "4552bfa7-905d-4f28-9b49-68a50cb3034f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "9ffa7a3e-9666-46f1-8962-bc45d3caf907"
-        },
-        {
             "id": "d76fad1f-3fb7-454d-beca-ac19388719f7",
             "modelName": "GMEvent",
             "mvc": "1.0",

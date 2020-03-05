@@ -3,7 +3,6 @@
 //#macro SAVEFILE "scores.sav"
 #macro SAVEFILE "scores.json"
 
-yS = 190
 netWorth = string(global.netWorth)
 age = string(global.age)
 msg = string(global.deathmsg)

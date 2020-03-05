@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "3ccd6a8c-4365-49d2-9398-d353042d99b5",
+            "Value": {
+                "id": "4bac5869-6cee-4b69-96e9-d259e4f17587",
+                "resourcePath": "scripts\\CashFmt\\CashFmt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3d135e05-7db5-43b9-8eeb-9a932c8fa74a",
             "Value": {
                 "id": "cebe3b25-983a-47fb-a8a9-9fd120c49606",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "c171d98b-3952-4286-86c8-38703db96d4e",
                 "resourcePath": "sprites\/sCash3\/sCash3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46874038-08a7-42ff-bfaa-b23ba8e0057b",
+            "Value": {
+                "id": "e4ac3b1b-fbb8-4477-97fe-8aa4da695803",
+                "resourcePath": "sprites\\sHighScores\\sHighScores.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "7fb3a491-7e74-4415-8468-d818512e57de",
+            "Value": {
+                "id": "74bccdd7-35c2-4f5c-beaa-6777adac07ba",
+                "resourcePath": "sprites\\sGameEndGui\\sGameEndGui.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80af3340-8a8b-4a6a-b33a-fe5622ba2588",
             "Value": {
                 "id": "87300948-8b6d-47a2-a4ae-8ce94770ba09",
@@ -700,6 +724,14 @@
                 "id": "ed597839-5740-4fdb-bd10-41658be33a86",
                 "resourcePath": "sprites\/sPlayer\/sPlayer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "943e3096-1841-43aa-9dac-f17a043aae6e",
+            "Value": {
+                "id": "ccc92f00-38ec-4272-95a7-23445fd368fc",
+                "resourcePath": "objects\\oGameEndGui\\oGameEndGui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1199,7 +1231,8 @@
         "6da6d481-428a-4dab-9a41-53788634a040",
         "cdb4489e-352b-456f-b550-a922031ae5e8",
         "18cb4f34-eeea-4707-b7e4-14a4312cdcb9",
-        "a3a39fd5-ec01-4f8b-be83-512c7203c0fc"
+        "a3a39fd5-ec01-4f8b-be83-512c7203c0fc",
+        "3ccd6a8c-4365-49d2-9398-d353042d99b5"
     ],
     "tutorial": ""
 }
