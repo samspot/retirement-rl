@@ -34,7 +34,7 @@ for(i = 0; i < enemyNum; i++){
 			oEnemyPet,
 			oEnemyPhishing))
 	}
-	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyPhishing))
+	//instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyPhishing))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
 
@@ -91,3 +91,6 @@ if(oPlayer.married){
 
 
 audio_play_sound(sndGameStart, 1, false)
+// make sure player moves first
+oPlayer.moves = oPlayer.maxMoves
+oPlayer.canMove = true
