@@ -1,3 +1,5 @@
+// https://www.yoyogames.com/blog/67/the-basics-of-scaling-html5
+
 base_width = room_width;
 base_height = room_height;
 width = base_width;
