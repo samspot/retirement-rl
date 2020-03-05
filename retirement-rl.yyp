@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "37f94d47-e321-4fe0-8fb8-8df83327e91f",
+            "Value": {
+                "id": "84714b18-39df-4869-9cec-3aca4e831d58",
+                "resourcePath": "objects\\oEnemyPhishing\\oEnemyPhishing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3809879e-9dab-4fac-a6d4-1ee763acf72f",
             "Value": {
                 "id": "60933ba7-2166-40b5-9ea2-9cb1ef2e3f05",
@@ -355,6 +363,14 @@
             "Value": {
                 "id": "e4ac3b1b-fbb8-4477-97fe-8aa4da695803",
                 "resourcePath": "sprites\\sHighScores\\sHighScores.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46ee8736-3d88-4a4e-9a42-40ea1b6c3875",
+            "Value": {
+                "id": "6bb38572-885a-4398-b756-997076fc9e26",
+                "resourcePath": "sprites\\sPhishing\\sPhishing.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -23,16 +23,18 @@ for(i = 0; i < enemyNum; i++){
 			oEnemyVacation, 
 			oEnemyTv, 
 			oEnemyBaby, 
-			oEnemyPet))
+			oEnemyPet,
+			oEnemyPhishing))
 	} else {
 		instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(
 			oEnemyCreditCard, 
 			oEnemyVacation, 
 			oEnemyTv, 
 			oEnemyCrook, 
-			oEnemyPet))
+			oEnemyPet,
+			oEnemyPhishing))
 	}
-	//instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyCrook))
+	instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyPhishing))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
 
