@@ -18,8 +18,13 @@ income = 0
 //cash = 5000
 //age = 65
 expenses = 3000
+expenseRate = 1.0
 dead = false
 happiness = 0
+
+hasEmpMatch = true
+hasIncome = true
+willStarve = false
 
 married = false
 pets = 0

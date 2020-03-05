@@ -30,7 +30,7 @@ with(oMarket){
 			balance_emp += empAmount
 			finalAmount -= empAmount
 		
-			if(oPlayer.age < 65){
+			if(oPlayer.hasEmpMatch){
 				balance_emp += (amount * max(emp, 7)) / 100  // 401k employer match
 			}
 		}

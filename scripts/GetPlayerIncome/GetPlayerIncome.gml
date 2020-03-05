@@ -1,6 +1,6 @@
 /// GetPlayerIncome()
 
-if(oPlayer.age < 65){
+if(oPlayer.hasIncome){
 	return oPlayer.income
 } else {
 	return 0

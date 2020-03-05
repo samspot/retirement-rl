@@ -25,7 +25,6 @@ with(oMarket){
 if(CheckEndGame() && !oPlayer.dead){
 	oPlayer.dead = true	
 	global.netWorth = GetNetWorth()
-	global.age = oPlayer.age
 
 	room_goto(roomGameEnd)
 }
