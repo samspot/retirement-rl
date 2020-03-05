@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "4dbc5801-41f4-4026-8444-e1721d316f3f",
+            "Value": {
+                "id": "f66f3c62-613c-4c8c-9447-f40192cbbf5e",
+                "resourcePath": "sprites\\sRbutton\\sRbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e5c1fbd-2f7d-4e23-991a-7519555c71ed",
             "Value": {
                 "id": "32079551-7818-4315-803f-b2f8fb9c2232",
@@ -364,6 +372,22 @@
                 "id": "3edf7f2d-2b76-462a-89bf-c31b5d351b50",
                 "resourcePath": "views\\4e9c4ea6-95ae-4515-9cd3-4fa2837786d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5100c38f-4f9e-446a-873e-4d924cf6c1e5",
+            "Value": {
+                "id": "114b7134-2692-4b28-aa9b-facb68a975f7",
+                "resourcePath": "objects\\oDButton\\oDButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "54909cc2-70d8-486e-87b7-79a2a3c02f8e",
+            "Value": {
+                "id": "be29279d-7113-4409-8839-ccab06ad178d",
+                "resourcePath": "objects\\oUButton\\oUButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "75df9741-3a33-4afd-8dfd-63ded7e77234",
+            "Value": {
+                "id": "eb03630f-9c85-4d55-9a09-2d589a6ee350",
+                "resourcePath": "objects\\oRButton\\oRButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76bb1a88-3665-44ad-997b-bf80d3a25795",
             "Value": {
                 "id": "c4e810cb-ba95-48f5-ad34-cd26182d8e98",
@@ -612,6 +644,14 @@
                 "id": "c6c8a0c8-89bb-4c70-8703-e804aca9872d",
                 "resourcePath": "scripts\/PixelToGrid\/PixelToGrid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "82d40b40-bd4f-4f90-ab3e-3dde9a4af640",
+            "Value": {
+                "id": "23452474-5153-4bec-b9c3-4c15cacbba1e",
+                "resourcePath": "sprites\\sUbutton\\sUbutton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -708,6 +748,14 @@
                 "id": "1ce821cc-de2d-44ed-b80d-49c881cdd11c",
                 "resourcePath": "views\/8e3f0781-6f68-4397-ad86-a53508f2567c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8f3f2806-7cf6-4bc6-bbcf-42031eb46dfb",
+            "Value": {
+                "id": "9213bda7-8dae-4764-9102-6a337625ae3a",
+                "resourcePath": "objects\\oLButton\\oLButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -871,11 +919,27 @@
             }
         },
         {
+            "Key": "aa7bd850-85f6-4429-a53e-a73bbeda10c7",
+            "Value": {
+                "id": "d1d0697e-6f1e-4d89-9f3f-ca72793c666b",
+                "resourcePath": "sprites\\sDbutton\\sDbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abca1c7a-3a44-4f44-93c8-b90c303319cd",
             "Value": {
                 "id": "f0ff1d3c-79a5-4a47-b45d-fbfcdeaef077",
                 "resourcePath": "scripts\/CheckGridCollision\/CheckGridCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aca605a2-87cc-4073-94f2-af63aa86a15d",
+            "Value": {
+                "id": "aded1342-00a5-4b83-b722-42a909c5c744",
+                "resourcePath": "sprites\\sLbutton\\sLbutton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1068,6 +1132,14 @@
                 "id": "6dd3b1fc-9c9d-443e-aad3-3ea9e23b8fc1",
                 "resourcePath": "views\\d79ccba0-1581-48a2-ad7f-ef4cc8aa136b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d8b9bd75-bcbe-4765-a609-1d0a8e76d4f3",
+            "Value": {
+                "id": "fe239354-8680-4294-b17d-bea6b5bf5c03",
+                "resourcePath": "objects\\pNavButton\\pNavButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

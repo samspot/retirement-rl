@@ -1,9 +1,9 @@
 /// @description player movement
 
-var right = IRight()// || oFlickListener.right > 0
-var down = IDown()// || oFlickListener.down > 0
-var left = ILeft()// || oFlickListener.left > 0
-var up = IUp()// || oFlickListener.up > 0
+var right = IRight() || oRButton.input > 0// || oFlickListener.right > 0
+var down = IDown() || oDButton.input > 0// || oFlickListener.down > 0
+var left = ILeft() || oLButton.input > 0// || oFlickListener.left > 0
+var up = IUp() || oUButton.input > 0 // || oFlickListener.up > 0
 
 // sync player grid coords with the controller
 if(hspeed == 0 && vspeed == 0){
