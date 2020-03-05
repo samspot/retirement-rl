@@ -20,16 +20,16 @@ draw_rectangle(xStart, y-20, xStop, y-15, false)
 //DrawTextShadowed(x - sprite_width/4, y-4, "Cash $" + string(oPlayer.cash))
 // manual DrawTextShadowed
 var xp = x - sprite_width/4
-var yp = y-4
+var yp = y-4-2
 var str = "Cash $" + string(oPlayer.cash)
 
 draw_set_color(c_black)
 draw_set_font(fntGui)
 draw_text(xp+1, yp+1, str)
-	
+	/*
 draw_set_color(c_gray)
 draw_text(xp, yp, str)
-	
+	*/
 
 
 toolTipText = "Your Net Worth - "

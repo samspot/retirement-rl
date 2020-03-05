@@ -10,3 +10,5 @@ image_index = floor(random(sprite_get_number(sprite_index)))
 
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
+
+toolTipText = "An impassible barrier."

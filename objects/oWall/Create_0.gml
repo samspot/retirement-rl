@@ -4,4 +4,4 @@
 //image_yscale = global.spriteScale
 
 event_inherited()
-toolTipText = "An impassible barrier."
+toolTipText = ""//"An impassible barrier."
