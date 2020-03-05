@@ -9,6 +9,7 @@ if(oPlayer.age < 35){
 	global.deathmsg = choose("You died of dysentery.", 
 		"You were killed by angry creditors!", 
 		"Stress induced heart attack!")
+	//global.deathmsg = "this is a really long sentence, like way longer than it should be.  seriously please shorten it"
 } else if (oPlayer.age >= 35 && oPlayer.age < 50){
 	oController.enemyNum = 3
 	oPlayer.expenseRate = 1.3
