@@ -21,3 +21,6 @@ damage = 1
 itemsBlock = true
 event_inherited()
 toolTipText = "This is the ENEMY parent item \nChildren should override it."
+
+sound = sndEnemyDeath
+soundPriority = 5

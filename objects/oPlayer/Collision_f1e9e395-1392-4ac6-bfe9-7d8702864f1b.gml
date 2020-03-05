@@ -15,6 +15,9 @@ with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 }
 
 with(other){
+	if(sound != noone){
+		audio_play_sound(sound, soundPriority, false)
+	}
 	event_user(0)
 	instance_destroy()
 }

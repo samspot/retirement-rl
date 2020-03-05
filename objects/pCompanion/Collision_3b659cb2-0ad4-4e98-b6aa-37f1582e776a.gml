@@ -4,4 +4,9 @@
 
 AddCash(other.cash, true)
 
-with(other) instance_destroy()
+with(other) {
+	if(sound != noone){
+		audio_play_sound(sound, soundPriority, false)
+	}
+	instance_destroy()
+}

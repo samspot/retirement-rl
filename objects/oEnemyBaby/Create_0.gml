@@ -7,3 +7,5 @@ toolTipText = "Babies are expensive, but increase your happiness."
 
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
+
+sound = sndBaby

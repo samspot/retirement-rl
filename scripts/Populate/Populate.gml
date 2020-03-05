@@ -72,3 +72,6 @@ for(i=0; i < oPlayer.pets; i++){
 if(oPlayer.married){
 	CreateEntity(oSpouseMarried, entity.enemy)
 }
+
+
+audio_play_sound(sndGameStart, 1, false)

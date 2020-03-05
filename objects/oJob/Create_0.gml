@@ -11,3 +11,4 @@ image_xscale = global.spriteScale
 image_yscale = global.spriteScale
 
 icon = sJobIcon
+sound = sndJob

@@ -3,6 +3,8 @@
 //#macro SAVEFILE "scores.sav"
 #macro SAVEFILE "scores.json"
 
+audio_play_sound(sndDeath, 1, false)
+
 netWorth = string(global.netWorth)
 age = string(global.age)
 msg = string(global.deathmsg)

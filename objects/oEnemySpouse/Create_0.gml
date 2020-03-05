@@ -7,3 +7,5 @@ toolTipText = "Getting married will increase your happiness, and your expenses."
 
 image_xscale = global.spriteScale
 image_yscale = global.spriteScale
+
+sound = sndMarried

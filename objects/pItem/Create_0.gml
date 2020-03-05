@@ -15,3 +15,7 @@ gX = PixelToGrid(x)
 gY = PixelToGrid(y)
 
 icon = sPickupIcon
+
+
+sound = sndPickup
+soundPriority = 5
