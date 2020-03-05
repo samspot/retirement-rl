@@ -1,7 +1,7 @@
 /// populate()
 
 level++
-enemyNum = level + enemyInc
+//enemyNum = level + enemyInc
 var eX, eY, i
 
 with(pEnemy) instance_destroy()

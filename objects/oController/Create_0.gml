@@ -67,7 +67,7 @@ enemyQueue = ds_list_create()
 enemyGrid = mp_grid_create(0, 0, gridWidth, gridHeight, dim, dim)
 
 level = 0
-enemyInc = 1
+enemyNum = 1
 
 
 instance_create_layer(0, 0, "Instances", oMarket)

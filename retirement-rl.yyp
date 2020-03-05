@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "4438435b-910e-435d-bd2c-c8b306220c90",
+            "Value": {
+                "id": "78c9bf93-2a6c-40ad-a6c2-44af4e271e63",
+                "resourcePath": "scripts\\IncAge\\IncAge.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "44ddabf8-5b31-4e05-97ab-f772d79561c8",
             "Value": {
                 "id": "c171d98b-3952-4286-86c8-38703db96d4e",
@@ -1181,6 +1189,7 @@
         "85767d72-cbbe-4dba-83b6-5a0b33e7dc52",
         "eba0af63-8879-4c83-9768-400190dbbe1e",
         "76bb1a88-3665-44ad-997b-bf80d3a25795",
+        "4438435b-910e-435d-bd2c-c8b306220c90",
         "f8423f10-8136-4336-919f-a01bdb6bdd9b",
         "75275f5d-2431-4347-ad17-76b328c330bd",
         "6d6cac2a-e5c4-4625-8d76-d6f0eb09f1fe",
