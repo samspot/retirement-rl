@@ -83,5 +83,6 @@ view_hport[0] = max_h;
 surface_resize(application_surface, view_wport[0], view_hport[0]);
 //*/
 //display_set_gui_size(view_wport[0], view_hport[0]);
-display_set_gui_size(view_wview[0], view_hview[0]);
+//display_set_gui_size(view_wview[0], view_hview[0]);
+display_set_gui_size(floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
 // TODO something wrong here
