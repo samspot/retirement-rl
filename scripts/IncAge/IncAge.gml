@@ -3,56 +3,56 @@
 oPlayer.age++
 global.age = oPlayer.age
 
-if(oPlayer.age < 35){
-	oController.enemyNum = 2
-	oPlayer.expenseRate = 1.0
+if(oPlayer.age < PLAYER_AGE_ADULT){
+	oController.enemyNum = YOUNG_ENEMY_SPAWNS
+	oPlayer.expenseRate = YOUNG_EXP_RATE
 	global.deathmsg = choose("You died of dysentery.", 
 		"You were killed by angry creditors!", 
 		"Stress induced heart attack!")
 	//global.deathmsg = "this is a really long sentence, like way longer than it should be.  seriously please shorten it"
-} else if (oPlayer.age >= 35 && oPlayer.age < 50){
-	oController.enemyNum = 3
-	oPlayer.expenseRate = 1.3
+} else if (oPlayer.age >= PLAYER_AGE_ADULT && oPlayer.age < PLAYER_AGE_MIDDLE){
+	oController.enemyNum = ADULT_ENEMY_SPAWNS
+	oPlayer.expenseRate = ADULT_EXP_RATE
 	global.deathmsg = choose("You died of dysentery.", 
 		"You were killed by angry creditors!", 
 		"Stress induced heart attack!")
-} else if (oPlayer.age >= 50 && oPlayer.age < 65){
-	oController.enemyNum = 4
-	oPlayer.expenseRate = 1.6
+} else if (oPlayer.age >= PLAYER_AGE_MIDDLE && oPlayer.age < PLAYER_AGE_OLD){
+	oController.enemyNum = MIDDLE_ENEMY_SPAWNS
+	oPlayer.expenseRate = MIDDLE_EXP_RATE
 	global.deathmsg = choose("Cancer claimed you.", "A minor stroke followed by a massive aneurysm.")
-} else if (oPlayer.age >= 65 && oPlayer.age < 80){
+} else if (oPlayer.age >= PLAYER_AGE_OLD && oPlayer.age < PLAYER_AGE_ANCIENT){
 	oPlayer.hasEmpMatch = false
 	oPlayer.hasIncome = false
 	
-	oController.enemyNum = 5
-	oPlayer.expenseRate = 2.2
+	oController.enemyNum = OLD_ENEMY_SPAWNS
+	oPlayer.expenseRate = OLD_EXP_RATE
 	global.deathmsg = choose("Stress shortened your lifespan but you did prety well.")
-} else if (oPlayer.age >= 80){
-	oController.enemyNum = 5
-	oPlayer.expenseRate = 1.9
+} else if (oPlayer.age >= PLAYER_AGE_ANCIENT){
+	oController.enemyNum = ANCIENT_ENEMY_SPAWNS
+	oPlayer.expenseRate = ANCIENT_EXP_RATE
 	global.deathmsg = choose("You lived a long and fulfilling life.")
 }
 
-if(GetNetWorth() < 0 && oPlayer.age > 70){
+if(GetNetWorth() < 0 && oPlayer.age > DEATH_CONSTANT){
 	oPlayer.willStarve = true
 	global.deathmsg = "You ran out of money!"
 }
 
-if(oPlayer.age == 35){
+if(oPlayer.age == PLAYER_AGE_ADULT){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
 		y = room_height * .6
 		text = "You turned 36! Life is getting more expensive"
 	}	
 }
-if(oPlayer.age == 50){
+if(oPlayer.age == PLAYER_AGE_MIDDLE){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
 		y = room_height * .6
 		text = "You turned 50! Life is getting more expensive"
 	}	
 }
-if(oPlayer.age == 65){
+if(oPlayer.age == PLAYER_AGE_OLD){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
 		y = room_height * .6

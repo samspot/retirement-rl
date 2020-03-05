@@ -1,15 +1,9 @@
 /// populate()
 
 level++
-//enemyNum = level + enemyInc
 var eX, eY, i
 
 with(pEnemy) instance_destroy()
-
-with(oController){
-	//ds_list_destroy(enemyQueue)
-	//enemyQueue = ds_list_create()
-}
 
 for(i = 0; i < enemyNum; i++){
 	do {
@@ -17,28 +11,16 @@ for(i = 0; i < enemyNum; i++){
 		eY = irandom_range(1, gridHeight-2) 
 	} until (ds_grid_get(oController.grid, eX, eY) == entity.empty)
 	
-	if(oPlayer.age < 65){
-		instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(
-			oEnemyCreditCard, 
-			oEnemyVacation, 
-			oEnemyTv, 
-			oEnemyBaby, 
-			oEnemyPet,
-			oEnemyPhishing))
+	if(oPlayer.age < PLAYER_AGE_OLD){
+		instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(WORKING_AGE_ENEMIES))
 	} else {
-		instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(
-			oEnemyCreditCard, 
-			oEnemyVacation, 
-			oEnemyTv, 
-			oEnemyCrook, 
-			oEnemyPet,
-			oEnemyPhishing))
+		instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(RETIREMENT_AGE_ENEMIES))
 	}
 	//instance_create_layer(GridToPixel(eX), GridToPixel(eY), "Instances", choose(oEnemyPhishing))
 	ds_grid_set(oController.grid, eX, eY, entity.enemy)
 }
 
-if(!oPlayer.married && irandom_range(1, 100) > 50){
+if(!oPlayer.married && irandom_range(1, 100) > SPOUSE_SPAWN_CHANCE){
 	do {
 		eX = irandom_range(1, gridWidth-2)
 		eY = irandom_range(1, gridHeight-2) 
@@ -54,31 +36,31 @@ with(oInnerWall) instance_destroy()
 
 CreateEntity(oExit, entity.item)
 
-for(i = 0; i < 3; i++){	
+for(i = 0; i < WALLS_TO_SPAWN; i++){	
 	CreateEntity(oInnerWall, entity.wall)
 }
 
-for(i = 0; i < 10; i++){
-	if(oPlayer.age < 35){
-		CreateEntity(choose(oItemCash, oItemCash, oItemCash, oItemCash2), entity.item)
-	} else if(oPlayer.age >= 35 && oPlayer.age < 50){
-		CreateEntity(choose(oItemCash, oItemCash2, oItemCash2, oItemCash3), entity.item)
-	} else if(oPlayer.age >= 50 && oPlayer.age < 65) {
-		CreateEntity(choose(oItemCash, oItemCash2, oItemCash3, oItemCash3), entity.item)
+for(i = 0; i < PICKUPS_TO_SPAWN; i++){
+	if(oPlayer.age < PLAYER_AGE_ADULT){
+		CreateEntity(choose(YOUNG_CASH_SPAWNS), entity.item)
+	} else if(oPlayer.age >= PLAYER_AGE_ADULT && oPlayer.age < PLAYER_AGE_MIDDLE){
+		CreateEntity(choose(ADULT_CASH_SPAWNS), entity.item)
+	} else if(oPlayer.age >= PLAYER_AGE_MIDDLE && oPlayer.age < PLAYER_AGE_OLD) {
+		CreateEntity(choose(MIDDLE_CASH_SPAWNS), entity.item)
 	}
 }
 
-for(i=0; i < 4; i++){
-	if(oPlayer.age < 65){
-		if(GetNetWorth() >= 100000){			
-			CreateEntity(choose(oItemSma, oItemEmp, oItemSma), entity.item)
+for(i=0; i < VEHICLES_TO_SPAWN; i++){
+	if(oPlayer.age < PLAYER_AGE_OLD){
+		if(GetNetWorth() >= SMA_SPAWN_MINIMUM_AMOUNT){			
+			CreateEntity(choose(POST_SMA_VEHICLE_SPAWNS), entity.item)
 		} else {
-			CreateEntity(choose(oItemIra, oItemEmp, oItemEmp), entity.item)
+			CreateEntity(choose(PRE_SMA_VEHICLE_SPAWNS), entity.item)
 		}
 	}
 }
 
-if(oPlayer.age < 65){
+if(oPlayer.age < PLAYER_AGE_OLD){
 	CreateEntity(oJob, entity.item)	
 }
 

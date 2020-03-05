@@ -48,7 +48,7 @@ enum invVehicles {
 #macro LEFT_BUFFER 5
 #macro RIGHT_BUFFER 5
 
-#macro DEATH_CONSTANT 70
+
 
 #macro UI_BUTTONS true
 //#macro DEATH_CONSTANT -20
@@ -70,6 +70,7 @@ for(iy = 0; iy < gridHeight; iy++){
 var pX = irandom_range(1, gridWidth-2)
 var pY = irandom_range(1, gridHeight-2)
 
+instance_create_layer(0, 0, "Instances", oBalance)
 instance_create_layer(GridToPixel(pX), GridToPixel(pY), "Instances", oPlayer)
 ds_grid_set(grid, pX, pY, entity.player)
 
@@ -82,7 +83,6 @@ enemyNum = 1
 
 
 instance_create_layer(0, 0, "Instances", oMarket)
-instance_create_layer(0, 0, "Instances", oBalance)
 
 
 Populate()

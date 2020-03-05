@@ -14,10 +14,10 @@ if(isPickup && amount > 0){
 with(oMarket){
 	if(isPickup){
 		var iraAmount = amount * GetIraPercent()
-		if(iraAmount > 7000){
-			balance_ira += 7000
+		if(iraAmount > IRA_CONTRIB_LIMIT){
+			balance_ira += IRA_CONTRIB_LIMIT
 			//oPlayer.cash += iraAmount - 7000
-			finalAmount -= 7000
+			finalAmount -= IRA_CONTRIB_LIMIT
 		} else {
 			balance_ira += iraAmount	
 			finalAmount -= iraAmount
@@ -31,7 +31,7 @@ with(oMarket){
 			finalAmount -= empAmount
 		
 			if(oPlayer.hasEmpMatch){
-				balance_emp += (amount * max(emp, 7)) / 100  // 401k employer match
+				balance_emp += (amount * max(emp, EMP_MATCH)) / 100  // 401k employer match
 			}
 		}
 		var smaAmount = amount * GetSmaPercent()

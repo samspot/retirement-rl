@@ -5,24 +5,24 @@ SimMarkets()
 var delta = 0
 
 if(market_state == marketState.BEAR){
-	delta = choose(-0.05, -0.03, -0.06)
+	delta = choose(BEAR_MARKET_RANGES)
 }
 
 if(market_state == marketState.BULL){
-	delta = choose(1.09, 1.10, 1.12)
+	delta = choose(BULL_MARKET_RANGES)
 }
 
 if(market_state == marketState.STABLE){
-	delta = choose(1.04, 1.05, 1.06)
+	delta = choose(STABLE_MARKET_RANGES)
 }
 
 if(delta > 0){
-	balance_ira *= delta
-	balance_emp *= delta
-	balance_sma *= delta + 0.04 // buff SMAs
+	balance_ira *= delta + IRA_RETURN_BUFF
+	balance_emp *= delta + EMP_RETURN_BUFF
+	balance_sma *= delta + SMA_RETURN_BUFF 
 } else {
-	balance_ira -= abs(balance_ira * delta)
-	balance_emp -= abs(balance_emp * delta)
-	balance_sma -= abs(balance_sma * (delta - 0.04)) // buff SMAs
+	balance_ira -= abs(balance_ira * (delta - IRA_RETURN_BUFF))
+	balance_emp -= abs(balance_emp * (delta - EMP_RETURN_BUFF))
+	balance_sma -= abs(balance_sma * (delta - SMA_RETURN_BUFF)) 
 }
 

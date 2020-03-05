@@ -35,9 +35,9 @@ switch(floor(risk / 10)){
 		break
 	case 3:
 	case 4:
-	case 5:
 		s = stress.DYING
 		break
+	case 5:
 	case 6:
 	case 7:
 	case 8:

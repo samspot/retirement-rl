@@ -9,16 +9,15 @@ canMove = true
 mSpeed = 4
 mSpeed = 12
 hp = 9
-maxMoves = 2
+maxMoves = oBalance.pMaxMoves // 2
 moves = maxMoves
 damage = 1
-cash = 20000
-age = 18
-income = 0
-//cash = 5000
-//age = 65
-expenses = 3000
-expenseRate = 1.0
+cash =  oBalance.pStartCash //20000
+age =  oBalance.pAge //18
+income =  oBalance.pIncome //0
+
+expenses =  oBalance.pExpenses //3000
+expenseRate =  oBalance.pExpenseRate //1.0
 dead = false
 happiness = 0
 

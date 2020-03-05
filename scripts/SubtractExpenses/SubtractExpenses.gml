@@ -36,6 +36,6 @@ if(cash < 0){
 }
 
 if(cash < 0){
-	cash *= 1.07
+	cash *= DEBT_RATE
 }
 oPlayer.cash = cash
