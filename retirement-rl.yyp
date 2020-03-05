@@ -863,14 +863,6 @@
             }
         },
         {
-            "Key": "b571d318-f014-4588-be83-15f59f5c414d",
-            "Value": {
-                "id": "cee3dfff-3492-454a-9d0e-908f820eae96",
-                "resourcePath": "fonts\/fntArial\/fntArial.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "b7f9ec57-94cc-41d3-b655-6d8bee07710b",
             "Value": {
                 "id": "92274693-6d4d-414b-833c-9d243899f1c3",
