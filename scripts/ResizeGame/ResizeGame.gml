@@ -84,3 +84,4 @@ surface_resize(application_surface, view_wport[0], view_hport[0]);
 //*/
 //display_set_gui_size(view_wport[0], view_hport[0]);
 display_set_gui_size(view_wview[0], view_hview[0]);
+// TODO something wrong here
