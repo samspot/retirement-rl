@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "033f4e0a-bd83-4310-92b1-24b28e16df98",
+            "Value": {
+                "id": "cbf2f518-40e8-4834-bfbc-b2580b229777",
+                "resourcePath": "objects\\oGameStart\\oGameStart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0790a82e-61f4-4613-93e5-fd4fa04a0269",
             "Value": {
                 "id": "46d2bd5f-c5e5-4124-bb02-eaa13ffb94b6",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "388aaaf7-abb8-4a97-9a43-7e0f5397e422",
+            "Value": {
+                "id": "bbfce57c-464b-4cd1-bbd2-f05b8b79e4ad",
+                "resourcePath": "rooms\\roomGameStart\\roomGameStart.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "39295fd7-e624-4794-9128-2af0dd4eb625",
             "Value": {
                 "id": "f8fe1c6b-0249-4b95-874d-66da13781ee1",
@@ -371,6 +387,14 @@
             "Value": {
                 "id": "6bb38572-885a-4398-b756-997076fc9e26",
                 "resourcePath": "sprites\\sPhishing\\sPhishing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "477d1587-19ef-40d1-a593-c6f5a74e0260",
+            "Value": {
+                "id": "e7e45342-c759-47e8-9830-8f53307ff70a",
+                "resourcePath": "sprites\\cover_base_256x384\\cover_base_256x384.yy",
                 "resourceType": "GMSprite"
             }
         },
