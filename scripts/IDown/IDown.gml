@@ -1,6 +1,6 @@
 /// IDown()
 
-var key_pressed = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
+var key_pressed = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(ord("J"))
 	
 key_pressed = key_pressed || gamepad_button_check_pressed(0, gp_padd)
 	

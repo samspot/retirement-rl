@@ -2,7 +2,7 @@
 
 // TODO Swipe: https://forum.yoyogames.com/index.php?threads/tutorial-swipe-controls-for-mouse-and-touch.20978/
 
-var key_pressed = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))
+var key_pressed = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("K"))
 	
 key_pressed = key_pressed || gamepad_button_check_pressed(0, gp_padu)
 	

@@ -1,6 +1,6 @@
 /// IRight()
 
-var key_pressed = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))
+var key_pressed = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")) || keyboard_check_pressed(ord("L"))
 	
 key_pressed = key_pressed || gamepad_button_check_pressed(0, gp_padr)
 	

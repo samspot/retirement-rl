@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "19450014-3f39-49fe-af84-a0651a9caf04",
+            "Value": {
+                "id": "8558d6b5-f8ed-4def-bda2-87e239ab5fb4",
+                "resourcePath": "objects\/oGestureListener\/oGestureListener.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ada92a5-ba45-4835-9095-ac06cd122cdd",
             "Value": {
                 "id": "26649502-aa37-470f-b2e3-24e4003cb03b",
@@ -474,7 +482,7 @@
             "Key": "52c41c15-7d2f-4fde-b620-ecabd381abb4",
             "Value": {
                 "id": "6ae233d7-60e5-44bd-9aca-1cb4d2dfe633",
-                "resourcePath": "objects\\oPerformance\\oPerformance.yy",
+                "resourcePath": "objects\/oPerformance\/oPerformance.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -570,7 +578,7 @@
             "Key": "64cd21f3-1948-4aed-b2fa-cef73a855d14",
             "Value": {
                 "id": "23d1c4f8-80c0-4935-8af4-2dbfe3b32510",
-                "resourcePath": "sprites\\sPerfPopup\\sPerfPopup.yy",
+                "resourcePath": "sprites\/sPerfPopup\/sPerfPopup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -826,7 +834,7 @@
             "Key": "859b1a2d-36d5-41a1-a374-71df16217bc5",
             "Value": {
                 "id": "15db3801-b5e3-4437-ab19-66c519580bf1",
-                "resourcePath": "fonts\\fntGuiLarge\\fntGuiLarge.yy",
+                "resourcePath": "fonts\/fntGuiLarge\/fntGuiLarge.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1378,7 +1386,7 @@
             "Key": "ea9aac60-87a1-4325-b2fa-0379a848373d",
             "Value": {
                 "id": "8c6f72aa-3ce1-41da-9bf4-73e62b3b9521",
-                "resourcePath": "scripts\\DrawTextShadowedColor\\DrawTextShadowedColor.yy",
+                "resourcePath": "scripts\/DrawTextShadowedColor\/DrawTextShadowedColor.yy",
                 "resourceType": "GMScript"
             }
         },
