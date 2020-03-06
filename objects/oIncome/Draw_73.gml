@@ -26,6 +26,7 @@ var xp = x - sprite_width/3
 var yp = y-4-2
 var str = "Cash" + CashFmt(oPlayer.cash)
 
+draw_set_halign(fa_left)
 draw_set_color(c_black)
 draw_set_font(fntGui)
 draw_text(xp+1, yp+1, str)

@@ -6,6 +6,7 @@ image_index = stressLevel
 draw_self()
 
 draw_set_font(fntGui)
+draw_set_halign(fa_left)
 DrawTextShadowed(x+sprite_width/2, y, "Age " + string(oPlayer.age), fntGui, 0)
 
 
