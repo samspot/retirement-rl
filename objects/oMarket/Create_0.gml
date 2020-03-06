@@ -17,5 +17,7 @@ balance_emp = 0
 balance_sma = 0
 
 
+market_state = choose(marketState.BEAR, marketState.BULL, marketState.STABLE)
+market_state_duration = 0
 SimMarkets()
 
