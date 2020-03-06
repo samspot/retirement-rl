@@ -51,4 +51,9 @@ if(show) {
 	//var text = string(return_all_rate) + "%  " + CashFmt(lifetime_returns)
 	var text = CashFmt(lifetime_returns) + " (" + string(return_all_rate) + "%)"
 	DrawTextShadowedColor(x, yStart + sprite_height*0.75, text, fntGui, sprite_width, fColor)
+	
+	if(lifetime_investments > 0){
+		text = string((lifetime_returns - lifetime_investments) / lifetime_investments) + "%"
+		DrawTextShadowedColor(x, yStart + sprite_height*0.65, text, fntGui, sprite_width, fColor)
+	}
 }

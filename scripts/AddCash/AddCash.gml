@@ -18,9 +18,11 @@ with(oMarket){
 			balance_ira += IRA_CONTRIB_LIMIT
 			//oPlayer.cash += iraAmount - 7000
 			finalAmount -= IRA_CONTRIB_LIMIT
+			oPerformance.lifetime_investments += IRA_CONTRIB_LIMIT
 		} else {
 			balance_ira += iraAmount	
 			finalAmount -= iraAmount
+			oPerformance.lifetime_investments += iraAmount
 		}
 	}
 	//balance_ira += amount * ira / 100	
@@ -29,14 +31,17 @@ with(oMarket){
 			var empAmount = amount * GetEmpPercent()
 			balance_emp += empAmount
 			finalAmount -= empAmount
+			oPerformance.lifetime_investments += empAmount
 		
 			if(oPlayer.hasEmpMatch){
 				balance_emp += (amount * (min(emp, EMP_MATCH)/100) )  // 401k employer match
+				oPerformance.lifetime_investments += (amount * (min(emp, EMP_MATCH)/100) )
 			}
 		}
 		var smaAmount = amount * GetSmaPercent()
 		balance_sma += smaAmount
 		finalAmount -= smaAmount
+		oPerformance.lifetime_investments += smaAmount
 	}
 	
 	oPlayer.cash += finalAmount
