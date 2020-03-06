@@ -30,9 +30,9 @@ if(other.retirement > 0){
 		oMarket.balance_sma -= amount
 	}
 	
-	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-		text = "Took " + string(amount) + " from " + string(vehicle)
-	}
+	//with(instance_create_layer(0, 0, "Instances", oFloatingText)){
+	//	text = "Took " + string(amount) + " from " + string(vehicle)
+	//}
 	
 }
 
