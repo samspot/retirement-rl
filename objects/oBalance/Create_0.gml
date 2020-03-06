@@ -25,21 +25,21 @@ pExpenseRate = 1.0
 #macro POST_SMA_VEHICLE_SPAWNS oItemSma, oItemEmp, oItemSma
 
 #macro WORKING_AGE_ENEMIES oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyBaby, oEnemyPet, oEnemyPhishing
-#macro RETIREMENT_AGE_ENEMIES oEnemyCreditCard, oEnemyVacation, oEnemyTv, oEnemyCrook, oEnemyPet, oEnemyPhishing
+#macro RETIREMENT_AGE_ENEMIES oEnemyCreditCard, oEnemyVacation, oEnemyVacation, oEnemyTv, oEnemyCrook, oEnemyPet, oEnemyPet, oEnemyPhishing
 
 #macro YOUNG_CASH_SPAWNS oItemCash, oItemCash, oItemCash, oItemCash2
 #macro ADULT_CASH_SPAWNS oItemCash, oItemCash2, oItemCash2, oItemCash3
 #macro MIDDLE_CASH_SPAWNS oItemCash, oItemCash2, oItemCash3, oItemCash3
 
 // Cash Values
-cash1 = 5000
-cash2 = 10000
-cash3 = 20000
+cash1 = 3000
+cash2 = 8000
+cash3 = 12000
 
 // Investment Pickup Values
-iraPickupPercent = 5
+iraPickupPercent = 10
 empPickupPercent = 5
-smaPickupPercent = 5
+smaPickupPercent = 15
 
 #macro IRA_CONTRIB_LIMIT 7000
 #macro EMP_MATCH 7
@@ -53,7 +53,7 @@ crookRetirement = 0.1
 tvCash = 3000
 
 babyCash = 300
-babyHappiness = 2
+babyHappiness = 4
 babyExpenses = 300
 
 vacaHappiness = 1

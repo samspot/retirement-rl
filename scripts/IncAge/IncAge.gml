@@ -34,7 +34,7 @@ if(oPlayer.age < PLAYER_AGE_ADULT){
 	
 	oController.enemyNum = OLD_ENEMY_SPAWNS
 	oPlayer.expenseRate = OLD_EXP_RATE
-	global.deathmsg = choose("You died soon after retirement.  Find ways to reduce debt and increase happiness.")
+	global.deathmsg = choose("Reduce debt and increase happiness to live longer.")
 } else if (oPlayer.age >= PLAYER_AGE_ANCIENT){
 	oController.enemyNum = ANCIENT_ENEMY_SPAWNS
 	oPlayer.expenseRate = ANCIENT_EXP_RATE
