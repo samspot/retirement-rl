@@ -2,9 +2,18 @@
 draw_self()
 
 draw_set_valign(fa_top);
-DrawTextShadowed(x, y, "Net Worth " + CashFmt(oGameEnd.netWorth), fntGui, sprite_width)
-DrawTextShadowed(x, y+20, "Age " + oGameEnd.age, fntGui, sprite_width)
+
+// Debug
+//oGameEnd.age = "110"
+//oGameEnd.netWorth = 2111111
+//oGameEnd.msg = "a message that is really quite too long, and shouldn't be here"
+
+DrawTextShadowed(x+70, y, "Net Worth " + CashFmt(oGameEnd.netWorth), fntGui, sprite_width)
+DrawTextShadowed(x, y, "Age " + oGameEnd.age, fntGui, sprite_width)
 DrawTextShadowed(x, y+40, oGameEnd.msg, fntGui, sprite_width-16)
+
+var text = "Market Returns " + string(oPerformance.return_all_rate) + "%  " + CashFmt(oPerformance.lifetime_returns)
+DrawTextShadowed(x, y+20, text, fntGui, 0)
 
 for(i=0; i<ds_list_size(oGameEnd.scoreDisplayList); i++){
 	var key = ds_list_find_value(oGameEnd.scoreDisplayList, i)

@@ -36,6 +36,8 @@ if(cash < 0){
 }
 
 if(cash < 0){
-	cash *= DEBT_RATE
+	//cash *= DEBT_RATE
+	//balance_ira += balance_ira * (delta + IRA_RETURN_BUFF)
+	cash += cash * DEBT_RATE
 }
 oPlayer.cash = cash

@@ -3,16 +3,24 @@ with(oMarket){
 	market_state_duration++
 	if(market_state == marketState.STABLE){
 		market_state = choose(marketState.BEAR, marketState.BULL, marketState.STABLE)
-		market_state_duration = 0
-	} else if(market_state_duration > irandom_range(3, 6)){
-		if(market_state == marketState.BEAR){
-			market_state = choose(marketState.BULL, marketState.STABLE)
-		}
-		if(market_state == marketState.BULL){
-			market_state = choose(marketState.BEAR, marketState.STABLE)
-		}
-		market_state_duration = 0
+		
+		market_state_duration = 1		
+		//if(market_state == marketState.BEAR){
+			//market_state_duration = 2  // shorter bear markets than bull markets
+		//}
+	//} else if(market_state_duration > irandom_range(3, 6)){
+	} else if(market_state == marketState.BEAR && market_state_duration > irandom_range(2, 5)){
+		market_state = choose(marketState.BULL, marketState.STABLE)
+		market_state_duration = 1		
+	} else if(market_state == marketState.BULL && market_state_duration > irandom_range(4, 7)){
+		market_state = choose(marketState.BEAR, marketState.STABLE)
+		market_state_duration = 1		
 	}
+		
+		//if(market_state == marketState.BEAR){
+//			market_state_duration = 2  // shorter bear markets than bull markets
+		//}
+	//}
 
 	
 	with(oMarketGui){

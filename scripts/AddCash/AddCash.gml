@@ -31,7 +31,7 @@ with(oMarket){
 			finalAmount -= empAmount
 		
 			if(oPlayer.hasEmpMatch){
-				balance_emp += (amount * max(emp, EMP_MATCH)) / 100  // 401k employer match
+				balance_emp += (amount * (min(emp, EMP_MATCH)/100) )  // 401k employer match
 			}
 		}
 		var smaAmount = amount * GetSmaPercent()

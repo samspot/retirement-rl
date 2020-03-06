@@ -71,14 +71,14 @@ petExpenses = 500
 
 // Markets
 #macro BEAR_MARKET_RANGES -0.05, -0.03, -0.06
-#macro BULL_MARKET_RANGES 1.09, 1.10, 1.12
-#macro STABLE_MARKET_RANGES 1.04, 1.05, 1.06
+#macro BULL_MARKET_RANGES 0.09, 0.10, 0.12
+#macro STABLE_MARKET_RANGES 0.04, 0.05, 0.06
 
 #macro IRA_RETURN_BUFF 0
 #macro EMP_RETURN_BUFF 0
 #macro SMA_RETURN_BUFF 0.04
 
-#macro DEBT_RATE 1.07
+#macro DEBT_RATE .07
 
 // Expense rates for age thresholds - as you age you have more needs/wants
 #macro YOUNG_EXP_RATE 1.0
@@ -90,7 +90,7 @@ petExpenses = 500
 // Stress
 #macro STRESS_FROM_DEBT abs(oPlayer.cash / 10000)
 #macro DEATH_CONSTANT 70
-//#macro DEATH_CONSTANT -30
+//#macro DEATH_CONSTANT 0
 
 #macro PLAYER_AGE_ADULT 35
 #macro PLAYER_AGE_MIDDLE 50

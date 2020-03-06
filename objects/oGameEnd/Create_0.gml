@@ -5,6 +5,8 @@
 
 audio_play_sound(sndDeath, 1, false)
 
+oPerformance.show = false
+
 netWorth = string(global.netWorth)
 age = string(global.age)
 msg = string(global.deathmsg)
