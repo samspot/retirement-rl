@@ -27,7 +27,8 @@ if(file_exists(SAVEFILE)){
 	
 	
 	// debug code
-	jsonx = "{ " 
+	/*
+	json = "{ " 
 		+ "\"2000-24\": { \"age\": \"24\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"2000\" }"
 		+ ", \"17000-24\": { \"age\": \"19\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"17000\" }"
 		+ ", \"1000-24\": { \"age\": \"24\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"1000\" }"
@@ -46,7 +47,12 @@ if(file_exists(SAVEFILE)){
 		+ ", \"2000-87\": { \"age\": \"87\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"-19675\" }"
 		+ ", \"2000-90\": { \"age\": \"90\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"-19133\" }"
 		
+		+ ", \"1\": { \"age\": \"114\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"296417\" }"
+		+ ", \"2\": { \"age\": \"114\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"1026517\" }"
+		+ ", \"3\": { \"age\": \"114\", \"msg\": \"Stress induced heart attack!\", \"netWorth\": \"-1026517\" }"
+		
 		+ " }"
+		//*/
 	
 	readMap = json_decode(json)
 	
@@ -82,13 +88,12 @@ ds_map_delete(readMap, "default")
 scores = ds_priority_create()	
 var k = ds_map_find_first(readMap)
 while (!is_undefined(k)) {
-  var entity = ds_map_find_value(readMap, k)
-  var a = real(ds_map_find_value(entity, "age"))
-  //var n = real(ds_map_find_value(entity, "netWorth"))
-  //var priority = n ^ a
-  var priority = -a
-  ds_priority_add(scores, k, priority)
-  k = ds_map_find_next(readMap, k);
+	var entity = ds_map_find_value(readMap, k)
+	var a = real(ds_map_find_value(entity, "age"))
+	var n = real(ds_map_find_value(entity, "netWorth"))
+	var priority = a*-100000000 - n
+	ds_priority_add(scores, k, priority)
+	k = ds_map_find_next(readMap, k);
 }
 
 scoreDisplayList = ds_list_create()
@@ -97,6 +102,20 @@ while(ds_priority_size(scores) > 0){
 	ds_list_add(scoreDisplayList, k)
 }
 ds_priority_destroy(scores)
-
 	
 
+
+/*
+scores2 = ds_priority_create()
+do {
+	k = ds_priority_delete_min(scores)
+	var entity = ds_map_find_value(readMap, k)
+	var a = real(ds_map_find_value(entity, "age"))
+	var n = real(ds_map_find_value(entity, "netWorth"))
+	var priority = a*-100000000 - n
+	ds_priority_add(scores2, k, priority)
+} until (ds_priority_size(oGameEnd.scores) <= 0)
+//ds_priority_destroy(scores)
+ds_priority_copy(scores, scores2)
+ds_priority_destroy(scores2)
+*/

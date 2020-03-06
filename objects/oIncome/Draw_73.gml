@@ -22,9 +22,9 @@ draw_rectangle(xStart, y-20, xStop, y-15, false)
 
 //DrawTextShadowed(x - sprite_width/4, y-4, "Cash $" + string(oPlayer.cash))
 // manual DrawTextShadowed
-var xp = x - sprite_width/4
+var xp = x - sprite_width/3
 var yp = y-4-2
-var str = "Cash $" + string(oPlayer.cash)
+var str = "Cash" + CashFmt(oPlayer.cash)
 
 draw_set_color(c_black)
 draw_set_font(fntGui)
