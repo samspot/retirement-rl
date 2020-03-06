@@ -1,5 +1,7 @@
 //draw_self()
-if ( showToolTip == 1 ){
+
+
+if ( showToolTip == 1 && !GestureMoving()){
    DrawToolTip(toolTipText, fntTooltip, c_white, c_black, 0.8);
 }
 /*

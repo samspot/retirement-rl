@@ -12,17 +12,17 @@ if(abs(flickVelX) > abs(flickVelY)){
 	if(flickVelX > 0.5){
 		right = 3
 	
-		with(instance_create_layer(128, 192, "Instances", oFloatingText)){
-			text = "right vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
-		}
+		//with(instance_create_layer(128, 192, "Instances", oFloatingText)){
+		//	text = "right vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
+		//}
 	}
 	
 	
 	if(flickVelX < -0.5){
 		left = 3
-		with(instance_create_layer(128, 192, "Instances", oFloatingText)){
-			text = "left vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
-		}
+		//with(instance_create_layer(128, 192, "Instances", oFloatingText)){
+		//	text = "left vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
+		//}
 	}
 	flickVelX = 0
 } 
@@ -32,16 +32,17 @@ else if(abs(flickVelY) > abs(flickVelX)){
 	
 	if(flickVelY > 0.5){
 		down = 3
-		with(instance_create_layer(128, 192, "Instances", oFloatingText)){
-			text = "down vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
-		}
+		//with(instance_create_layer(128, 192, "Instances", oFloatingText)){
+		//	text = "down vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
+		//}
 	}
 
 	if(flickVelY < -0.5){
 		up = 3
-		with(instance_create_layer(128, 192, "Instances", oFloatingText)){
-			text = "up vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
-		}
+	
+		//with(instance_create_layer(128, 192, "Instances", oFloatingText)){
+		//	text = "up vX " + string(other.flickVelX) + " vY " + string(other.flickVelY)
+		//}
 	}
 	flickVelY = 0
 }

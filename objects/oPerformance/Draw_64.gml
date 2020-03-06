@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(show) {
+if(show && !GestureMoving()) {
 	draw_self()
 	
 	
