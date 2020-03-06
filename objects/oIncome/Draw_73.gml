@@ -1,8 +1,11 @@
 /// @description Draw current balances
 draw_self()
 
+//oPlayer.income = 0
+//oPlayer.expenses = 30000
+
 // draw cashflow	
-var incomeDelta = min(68, ceil((GetPlayerIncome() - GetExpenses()) / 100))
+var incomeDelta = min(68, ceil((GetPlayerIncome() - GetExpenses()) / 500))
 incomeDelta = max(-68, incomeDelta)
 var xStop = x
 var xStart = x
@@ -33,8 +36,8 @@ draw_text(xp, yp, str)
 
 
 toolTipText = "Cash Flow\n"
-	+ "        Cash" + CashFmt(oPlayer.cash) + "\n"
-	+ "   Income" + CashFmt(GetPlayerIncome()) + "\n"
+	+ "Cash" + CashFmt(oPlayer.cash) + "\n"
+	+ "Income" + CashFmt(GetPlayerIncome()) + "\n"
 	+ "Expenses" + CashFmt(GetExpenses()) + "\n"
 	
 	

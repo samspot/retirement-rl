@@ -89,7 +89,8 @@ petExpenses = 500
 
 // Stress
 #macro STRESS_FROM_DEBT abs(oPlayer.cash / 10000)
-#macro DEATH_CONSTANT 70
+//#macro DEATH_CONSTANT 70
+#macro DEATH_CONSTANT 0
 #macro PLAYER_AGE_ADULT 35
 #macro PLAYER_AGE_MIDDLE 50
 #macro PLAYER_AGE_OLD 65
