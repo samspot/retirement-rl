@@ -6,9 +6,13 @@ width = base_width;
 height = base_height;
 
 // viewport version code
-/*
+//*
 base_width = 256*1.3;
 base_height = 384*1.3;
+
+base_width = 1024
+base_height = 1536
+
 width = base_width;
 height = base_height;
-*/
+//*/
