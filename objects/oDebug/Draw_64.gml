@@ -16,7 +16,7 @@ draw_set_alpha(0.5)
 
 draw_set_color(c_yellow)
 draw_set_alpha(1)
-draw_text(camX+10, camY+30, "Camera Box GUI")
+//draw_text(camX+10, camY+30, "Camera Box GUI")
 
 var viewX = view_get_xport(0)
 var viewY = view_get_yport(0)
@@ -30,4 +30,4 @@ draw_set_alpha(0.5)
 
 draw_set_color(c_red)
 draw_set_alpha(1)
-draw_text(viewX+10, viewY+30, "Viewport Box GUI")
+//draw_text(viewX+10, viewY+30, "Viewport Box GUI")
