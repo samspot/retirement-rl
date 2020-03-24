@@ -1,88 +1,58 @@
 /// ResizeGame()
 
-/*
-var _check = true;
-var _rm = room_next(room);
-var  _rprev = _rm;
 
-while (_check = true)
-    {
-    var _cam = room_get_camera(_rm, 0);
-    camera_destroy(_cam);
-    var _newcam = camera_create_view((1024 - VIEW_WIDTH) div 2, (768 - VIEW_HEIGHT) div 2, VIEW_WIDTH, VIEW_HEIGHT);
-    room_set_camera(_rm, 0, _newcam);
-    room_set_viewport(_rm, 0, true, 0, 0, VIEW_WIDTH, VIEW_HEIGHT);
-    room_set_view_enabled(_rm, true);
-    if _rm = room_last
-        {
-        _check = false;
-        }
-    else
-        {
-        _rprev = _rm;
-        _rm = room_next(_rprev);
-        }
-    }
-	*/
-	
-	/*
-var base_w = 256;
-var base_h = 384;
-var aspect = base_w / base_h ; // get the GAME aspect ratio
-if (display_get_width() < display_get_height())
-    {
-    //portrait
-    var ww = min(base_w, display_get_width());
-    var hh = ww / aspect;
-    }
-else
-    {
-    //landscape
-    var hh = min(base_h, display_get_height());
-    var ww = hh * aspect;
-    }
-surface_resize(application_surface, ww, hh);
-*/
-//*
-var base_w = 256;
-var base_h = 384;
 var max_w = window_get_width();//display_get_width(); 
 var max_h = window_get_height(); //display_get_height();
 var aspect = max_w / max_h;
 
-var VIEW_HEIGHT = 0
-var VIEW_WIDTH = 0
-	// landscape
-    // VIEW_HEIGHT = min(base_h, max_h);
-    // VIEW_WIDTH = VIEW_HEIGHT * aspect;
-	
-    // portait
-    //VIEW_WIDTH = min(base_w, max_w);
-    //VIEW_HEIGHT = VIEW_WIDTH / aspect;
-	
-	//VIEW_HEIGHT = min(base_h, max_h);
-	//VIEW_WIDTH = VIEW_HEIGHT * aspect;
-//*
-if (max_w < max_h){
-    // portait
-	//aspect = base_w / base_h
-    VIEW_WIDTH = min(base_w, max_w);
-    VIEW_HEIGHT = VIEW_WIDTH / aspect;
-} else {
-    // landscape
-	
-	//aspect = base_w / base_h
-    VIEW_HEIGHT = min(base_h, max_h);
-    VIEW_WIDTH = VIEW_HEIGHT * aspect;
-}//*/
+var VIEW_HEIGHT = GetViewH()
+var VIEW_WIDTH = GetViewW()
 
+var cam = view_get_camera(0)
+var cx = GetGameX()
+var cy = 0
 	
+// Scale the camera	
 camera_set_view_size(view_camera[0], floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
+camera_set_view_pos(cam, -cx, cy)
+
+// Scale the gui
+var guiscale = camera_get_view_width(view_get_camera(0)) / camera_get_view_height(view_get_camera(0))
+var guiscale= VIEW_WIDTH / VIEW_HEIGHT
+var guix = cx
+var guiscale = 1
+//display_set_gui
+//display_set_gui_maximize(guiscale, guiscale, guix, 0)
+display_set_gui_size(floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
+global.guix_offset = cx
+
+
 view_wport[0] = max_w;
 view_hport[0] = max_h;
 surface_resize(application_surface, view_wport[0], view_hport[0]);
-//*/
-//display_set_gui_size(view_wport[0], view_hport[0]);
-//display_set_gui_size(view_wview[0], view_hview[0]);
-display_set_gui_size(floor(VIEW_WIDTH), floor(VIEW_HEIGHT))
-// TODO something wrong here
+
+//show_debug_message("guiscale: " + string(guiscale) + " guix: " + string(guix) + " aspect: " + string(aspect) + " VIEW_WIDTH: " + string(VIEW_WIDTH) + " base_w: " + string(global.base_h) + " cx: " + string(cx))
+
+
+	///// at stopping point
+	/*
+		* landscape ios perfect on 1 device - test others
+		* portrait ios busted, (too tall goes off bottom)
+		* macOs possibly busted, seemed like i needed to reverse polarity on the x coordinate., BUT it works ok in portrait.
+		* need to make a GetCamX and use in the set gui code too.
+	*/
+
+//display_set_gui_maximize(aspect, aspect, cx, 0)
+//if(isLandscape){
+						//var guiscale = VIEW_WIDTH / global.base_w
+						//guiscale = 1
+//} else {
+//	var guiscale = VIEW_HEIGHT / global.base_h	
+//}
+//guiscale *= 2
+//guiscale = VIEW_HEIGHT / global.base_h
+
+//guiscale = floor(guiscale)
+//var guix = cx * guiscale
+//var guix = -cx
+//display_set_gui_maximize(guiscale, guiscale, guix, 0)

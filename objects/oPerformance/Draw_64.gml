@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(show && !GestureMoving()) {
+	x += GetGameX()
 	draw_self()
 	
 	
@@ -40,6 +41,8 @@ if(show && !GestureMoving()) {
 	var fColor = c_white
 	//var cash = 1731.07
 	fColor = balance < 0 ? c_red : c_white
+	
+	
 	DrawTextShadowedColor(x, yStart + sprite_height*0.2, CashFmt(balance), fntGuiLarge, sprite_width, fColor)
 	
 	
@@ -64,4 +67,5 @@ if(show && !GestureMoving()) {
 		DrawTextShadowedColor(x, yStart + sprite_height*0.65, text, fntGui, sprite_width, fColor)
 	}
 	*/
+	x -= GetGameX()
 }

@@ -7,6 +7,8 @@ if(debug_mode){
 }
 
 global.netWorth = 0
+global.base_w = 256
+global.base_h = 384
 
 draw_set_valign(fa_middle);
 
