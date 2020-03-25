@@ -17,4 +17,12 @@ if (max_w < max_h){
     VIEW_WIDTH = VIEW_HEIGHT * aspect;
 }
 
+if(VIEW_HEIGHT < 384){
+	var diff = 384 - VIEW_HEIGHT
+	VIEW_HEIGHT = 384
+	VIEW_WIDTH += diff
+}
+
+
 return VIEW_HEIGHT
+//return 384

@@ -8,6 +8,9 @@ var max_h = window_get_height()
 var VIEW_HEIGHT = GetViewH()
 var VIEW_WIDTH = GetViewW()
 
+show_debug_message("vw: " + string(VIEW_HEIGHT) + " vh: " + string(VIEW_WIDTH) 
++ " isLandscape: " + string(IsLandscape()) + " max_w " + string(max_w) + " max_h " + string(max_h))
+
 var cam = view_get_camera(0)
 var cx = GetGameX()
 var cy = 0
