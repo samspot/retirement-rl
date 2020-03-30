@@ -14,6 +14,10 @@ if(hspeed == 0 && vspeed == 0){
 	x = GridToPixel(gX)
 	y = GridToPixel(gY)
 	ds_grid_set(c.grid, gX, gY, entity.player)
+} else {
+	with(pToolTip){
+		showToolTip = 0
+	}
 }
 
 var dirX = gX, dirY = gY, dir = -1;
