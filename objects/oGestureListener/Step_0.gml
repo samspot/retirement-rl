@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 if(right > 0 || left > 0 || up > 0 || down > 0){
 	with(pToolTip){
 		showToolTip = 0
 	}
 }
+*/
 
 right--
 left--

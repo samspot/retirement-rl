@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "3aa60d5d-8a5e-46de-9987-406650a2b516",
+            "Value": {
+                "id": "0ec2caa0-1cf1-439a-a8c0-c7affe910611",
+                "resourcePath": "scripts\/IsMovingSwiping\/IsMovingSwiping.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b26a1ae-c884-48e9-a161-eb96614d8ff6",
             "Value": {
                 "id": "5dd0ae31-2354-4e98-8e4a-5a297294fa95",
@@ -1550,6 +1558,7 @@
         "76bb1a88-3665-44ad-997b-bf80d3a25795",
         "4438435b-910e-435d-bd2c-c8b306220c90",
         "f28af971-a601-42e6-9571-b41e19dff098",
+        "3aa60d5d-8a5e-46de-9987-406650a2b516",
         "6d6cac2a-e5c4-4625-8d76-d6f0eb09f1fe",
         "74751788-0d83-4c91-9494-593f7cbdef2c",
         "f8423f10-8136-4336-919f-a01bdb6bdd9b",
