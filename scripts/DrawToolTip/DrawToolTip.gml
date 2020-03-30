@@ -25,7 +25,7 @@ text_width  = 5 + string_width(text);
 text_height = 5 + string_height(text);
 
 var xPos = mouse_x + GetGameX()
-var yPos = mouse_y
+var yPos = mouse_y - GetGameY()
 
 // don't wiggle the width within a grid square
 xPos = GridToPixel(PixelToGrid(xPos))
@@ -59,8 +59,8 @@ var rectBottomy = yPos + 5
 if(string_length(text) > 200){
 	rectLeftx   = (room_width * .05) + GetGameX()
 	rectRightx  = (room_width * .95) + GetGameX()
-	rectTopy    = room_height * .05
-	rectBottomy = room_height * .95
+	rectTopy    = (room_height * .05) - GetGameY()
+	rectBottomy = (room_height * .95) - GetGameY()
 	
 	drawExtWidth = room_width * .9
 }

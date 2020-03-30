@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(show && !GestureMoving()) {
 	x += GetGameX()
+	y -= GetGameY()
 	draw_self()
 	
 	
@@ -40,4 +41,5 @@ if(show && !GestureMoving()) {
 	}
 	*/
 	x -= GetGameX()
+	y += GetGameY()
 }
