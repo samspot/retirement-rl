@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(show && !GestureMoving()) {
+if(show && !IsMovingSwiping()) {
 	x += GetGameX()
 	y -= GetGameY()
 	draw_self()

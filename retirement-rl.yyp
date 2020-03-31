@@ -1503,14 +1503,6 @@
             }
         },
         {
-            "Key": "f28af971-a601-42e6-9571-b41e19dff098",
-            "Value": {
-                "id": "d5a401b3-7e90-4fe0-b9c9-f08ed710edd0",
-                "resourcePath": "scripts\/GestureMoving\/GestureMoving.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "7146e763-be33-48f2-a4f4-14943b830c2d",
@@ -1557,7 +1549,6 @@
         "eba0af63-8879-4c83-9768-400190dbbe1e",
         "76bb1a88-3665-44ad-997b-bf80d3a25795",
         "4438435b-910e-435d-bd2c-c8b306220c90",
-        "f28af971-a601-42e6-9571-b41e19dff098",
         "3aa60d5d-8a5e-46de-9987-406650a2b516",
         "6d6cac2a-e5c4-4625-8d76-d6f0eb09f1fe",
         "74751788-0d83-4c91-9494-593f7cbdef2c",
