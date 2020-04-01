@@ -64,6 +64,6 @@ if(oPlayer.age == PLAYER_AGE_OLD){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		x = 10
 		y = room_height * .6
-		text = "You retired at age 65, no more income piockups, and your expenses have gone up again."
+		text = "You retired at age 65, no more income pickups, and your expenses have gone up again."
 	}	
 }
