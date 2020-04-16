@@ -5,11 +5,13 @@ var cashPercent = GetCashPercent()
 //oPlayer.cash += amount * cashPercent
 var finalAmount = amount
 
+/*
 if(isPickup && amount > 0){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
 		text = "Got $" + string(amount)
 	}
 }
+*/
 
 with(oMarket){
 	if(isPickup){

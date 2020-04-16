@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+show_debug_message("collision with " + object_get_name(other.object_index))
 
 cash -= other.cash
 expenses += other.expenses

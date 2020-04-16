@@ -1,7 +1,7 @@
 time--
-if(time % 2 == 0){
+//if(time % 2 == 0){
 	y++
-}
+//}
 
 //if(time <= 0) {
 if(y > room_height){
