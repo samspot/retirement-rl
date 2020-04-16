@@ -8,6 +8,10 @@ draw_set_valign(fa_top);
 //oGameEnd.netWorth = 2111111
 //oGameEnd.msg = "a message that is really quite too long, and shouldn't be here"
 
+//var drawX = x + GetGameX()
+
+//x += GetGameX()
+draw_set_halign(fa_left)
 DrawTextShadowed(x+70, y, "Net Worth " + CashFmt(oGameEnd.netWorth), fntGui, sprite_width)
 DrawTextShadowed(x, y, "Age " + oGameEnd.age, fntGui, sprite_width)
 DrawTextShadowed(x, y+40, oGameEnd.msg, fntGui, sprite_width-16)
@@ -32,3 +36,5 @@ for(i=0; i<ds_list_size(oGameEnd.scoreDisplayList); i++){
 }
 
 draw_set_valign(fa_middle);
+
+//x -= GetGameX()
