@@ -12,6 +12,7 @@ return_all_rate = 0
 return_list = ds_list_create()
 lifetime_returns = 0
 lifetime_investments = 0
+lifetime_withdrawals = 0
 
 
 // debug values

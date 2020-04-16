@@ -29,7 +29,23 @@ if(show && !IsMovingSwiping()) {
 	fColor = lifetime_returns < 0 ? c_red : c_white
 	//var text = string(return_all_rate) + "%  " + CashFmt(lifetime_returns)
 	if(lifetime_investments > 0){
-		return_all_rate = (lifetime_returns - lifetime_investments) / lifetime_investments
+		// Rate of Return
+		//return_all_rate = (lifetime_returns - lifetime_investments) / lifetime_investments
+		// Annualized Rate of Return
+		var currentValue = balance + lifetime_withdrawals
+		var originalValue = lifetime_investments
+		var numberOfYears = global.age - oBalance.pAge
+		return_all_rate = (currentValue / originalValue) ^ (1/numberOfYears)
+		var ror = 0 
+		if(originalValue != 0){
+			ror = (currentValue - originalValue) / originalValue * 100
+		}
+		
+		return_all_rate = ror
+		show_debug_message("Annualized RoR = (" + string(currentValue) + " / " + string(originalValue) + ") ^ 1/" + string(numberOfYears) + " = " + string(return_all_rate) 
+		+ " lifetime_inv: " + string(lifetime_investments) + " lifetime_red: " + string(lifetime_withdrawals) 
+		+ " RoR = (" + string(currentValue) + " - " + string(originalValue) + ") / " + string(originalValue) + " = " + string(ror))
+	
 	}
 	//var text = CashFmt(lifetime_returns) + " (" + string(return_all_rate) + "%)"
 	var text = CashFmt(lifetime_returns) + " (" + string(return_all_rate) + "%)"

@@ -87,6 +87,9 @@ enemyNum = 1
 instance_create_layer(0, 0, "Instances", oMarket)
 
 
+messageList = ds_list_create()
+ds_list_clear(messageList)
+
 Populate()
 
 // ResizeGame()

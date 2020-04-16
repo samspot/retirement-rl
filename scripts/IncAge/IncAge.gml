@@ -48,22 +48,22 @@ if(GetNetWorth() < 0 && oPlayer.age > DEATH_CONSTANT){
 
 if(oPlayer.age == PLAYER_AGE_ADULT){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-		x = 10
-		y = room_height * .6
+		//x = 10
+		//y = room_height * .6
 		text = "You turned 36! Life is getting more expensive."
 	}	
 }
 if(oPlayer.age == PLAYER_AGE_MIDDLE){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-		x = 10
-		y = room_height * .6
+		//x = 10
+		//y = room_height * .6
 		text = "You turned 50! Life is getting more expensive."
 	}	
 }
 if(oPlayer.age == PLAYER_AGE_OLD){
 	with(instance_create_layer(0, 0, "Instances", oFloatingText)){
-		x = 10
-		y = room_height * .6
+		//x = 10
+		//y = room_height * .6
 		text = "You retired at age 65, no more income pickups, and your expenses have gone up again."
 	}	
 }
