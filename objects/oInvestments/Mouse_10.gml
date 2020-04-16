@@ -3,4 +3,4 @@
 // Inherit the parent event
 event_inherited();
 
-oPerformance.show = true
+//oPerformance.show = true
